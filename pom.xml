@@ -1,0 +1,44 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.mekomsolutions</groupId>
+  <artifactId>openmrs-config-haiti</artifactId>
+  <name>Haiti OpenMRS config</name>
+  <description>OpenMRS configuration for the Bahmni distribution for Haiti</description>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <developers>
+    <developer>
+      <name>Mekom Solutions</name>
+    </developer>
+  </developers>
+  <organization>
+    <name>Mekom Solutions</name>
+    <url>http://www.mekomsolutions.com</url>
+  </organization>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>create-package</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <appendAssemblyId>false</appendAssemblyId>
+              <descriptors>
+                <descriptor>src/main/assembly/assembly.xml</descriptor>
+              </descriptors>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
