@@ -53,8 +53,3 @@ ee63d1f2-095a-4d28-ba95-fbc933666070,,,HSC_contactPersonRelationship,,Contact Pe
 ,,,HSC_Other_Insurance,,Other,,,,Misc,N/A,,,,,,,,,,,
 ,,,HSC_None_Insurance,,None,,,,Misc,N/A,,,,,,,,,,,
 b7003acb-fca3-4a5b-bad9-62514116d764,,,HSC_Insurance_Company,,Insurance Company,,,,Misc,Coded,,HSC_AIC; HSC_INASSA; HSC_CAH; HSC_CONAM; HSC_OFATMA; HSC_SOGE_Assurance; HSC_UniAssurances; HSC_GMC_Henner; HSC_CIGNA_(Vanbreda); HSC_Other_Insurance; HSC_None_Insurance,,,,,,,,,
-,,,HSC_Emergency,,Emergency,,,,Misc,N/A,,,,,,,,,,,
-,,,HSC_Priority,,Priority,,,,Misc,N/A,,,,,,,,,,,
-,,,HSC_Queue,,Queue,,,,Misc,N/A,,,,,,,,,,,
-,,,HSC_Triage level,,Triage level,,,,Question,Coded,,HSC_Emergency;HSC_Priority;HSC_Queue,,,,,,,,,
-,,,HSC_Triage information,,Triage information,,,,ConvSet,N/A,,,HSC_Triage level,,,,,,,,
