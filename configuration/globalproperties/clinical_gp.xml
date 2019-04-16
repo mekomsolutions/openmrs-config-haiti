@@ -1,34 +1,6 @@
 <config>
   <globalProperties>
     <globalProperty>
-      <property>patient.nameValidationRegex</property>
-      <value></value>
-    </globalProperty>
-    <globalProperty>
-      <property>bahmni.primaryIdentifierType</property>
-      <value>b303f207-a094-457f-9833-f1cdc7b5d184</value>
-    </globalProperty>
-    <globalProperty>
-      <property>bahmni.extraPatientIdentifierTypes</property>
-      <value>e797face-8e8f-11e7-bb31-be2e44b06b34,e797f826-8e8f-11e7-bb31-be2e44b06b34</value>
-    </globalProperty>
-    <globalProperty>
-      <property>concept.reasonForDeath</property>
-      <value></value>
-    </globalProperty>
-    <globalProperty>
-      <property>locale.allowed.list</property>
-      <value>en, fr</value>
-    </globalProperty>
-    <globalProperty>
-      <property>default_locale</property>
-      <value>en</value>
-    </globalProperty>
-    <globalProperty>
-      <property>exti18n.reverseI18nSupport</property>
-      <value>false</value>
-    </globalProperty>
-    <globalProperty>
       <property>emrapi.sqlSearch.emergencyPatients</property>
       <value>select distinct concat(pn.given_name," ", ifnull(pn.family_name,'')) as name,
   pi.identifier as identifier,
