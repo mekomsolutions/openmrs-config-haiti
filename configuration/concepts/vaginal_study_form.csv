@@ -57,7 +57,7 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Descript
 ,,,GHC_Urine Dipstick,Urine Dipstick,Check all that were positive,Misc,Coded,,GHC_Leukocyte Esterase; GHC_Nitrite,,,,,,,,,
 ,,,GHC_Results of Diagnostic Testing done in clinic,Results of Diagnostic Testing done in clinic,,ConvSet,N/A,,,GHC_Microscopy; GHC_Urine Dipstick,,,,,,,,
 ,,,GHC_Other Vaginal Discharge Study Diagnosis,Other diagnoses,,Misc,Text,,,,,,,,,,,
-,,,GHC_Vaginal Discharge Study Diagnosis,Diagnosis,Check all that apply,Misc,Coded,,"N76.0 Bacterial vaginosis; A59.0 Trichomonas; B37.3 Candidiasis of vulva and vagina; B37.2 Candidiasis of skin and nail; N73.9 Female pelvic inflammatory disease, unspecified; N72 Inflammatory disease of cervix uteri; N39.0 Urinary tract infection, site not specified; B35.6 Tinea cruris;",,,,,,,,,
+,,,GHC_Vaginal Discharge Study Diagnosis,Diagnosis,Check all that apply,Misc,Coded,,"Bacterial vaginosis (N76.0); Trichomonas (A59.0); Candidiasis of vulva and vagina (B37.3); Candidiasis of skin and nail (B37.2); Female pelvic inflammatory disease, unspecified (N73.9); Inflammatory disease of cervix uteri (N72); Urinary tract infection, site not specified (N39.0); Tinea cruris (B35.6);",,,,,,,,,
 ,,,GHC_Other Vaginal Discharge Study Treatments,Other treatments,,Misc,Text,,,,,,,,,,,
 ,,,GHC_Vaginal Discharge Study Treatment,Treatment,Check all that apply,Misc,Coded,,Amoxicillin; Sulfamethoxazole & Trimethoprim; Ceftriaxone; Clindamycin; Clotrimazole; Doxycycline; Fluconazole;Metronidazole,,,,,,,,,
 ,,,GHC_Vaginal Discharge Study Results From Lab,Results from Send Out Lab,,Misc,Coded,,b2a75309-4eb5-414d-9f29-8ecb4ac7dd32; 74ab27c4-c745-45ff-b7e6-e8dbaf933458; 14e99cf4-d294-4905-8837-40e704d8a6ad; Gonorrhea; Chlamydia; ,,,,,,,,,
