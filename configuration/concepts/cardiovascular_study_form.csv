@@ -1,4 +1,0 @@
-Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1000
-07b816bb-647d-45cb-a26e-29bb4eef371f,,,ECG Results,ECG Results,,Misc,Text,,,,,,,,,,,
-0e7e2ac6-c987-4327-9fcc-30122b01b8c3,,,US Results,US Results,,Misc,Text,,,,,,,,,,,
-94fae902-dd1e-4ac4-8c11-9cabc81f89ea,,,Cardiovascular Studies,Cardiovascular Studies,,ConvSet,N/A,,,ECG Results; US Results,,,,,,,,
