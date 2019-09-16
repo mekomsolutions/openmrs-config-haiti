@@ -1,6 +1,6 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:km,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1100
-,,,HAITI_Emergency,,Emergency,,,,Misc,N/A,,,,,,,,,,,
-,,,HAITI_Priority,,Priority,,,,Misc,N/A,,,,,,,,,,,
-,,,HAITI_Queue,,Queue,,,,Misc,N/A,,,,,,,,,,,
-,,,HAITI_Triage level,,Triage level,,,,Question,Coded,,HAITI_Emergency;HAITI_Priority;HAITI_Queue,,,,,,,,,
-,,,HAITI_Triage information,,Triage information,,,,ConvSet,N/A,,,HAITI_Triage level,,,,,,,,
+,,,Haiti_Emergency,,Emergency,,,,Misc,N/A,,,,,,,,,,,
+,,,Haiti_Priority,,Priority,,,,Misc,N/A,,,,,,,,,,,
+,,,Haiti_Queue,,Queue,,,,Misc,N/A,,,,,,,,,,,
+,,,Haiti_Triage level,,Triage level,,,,Question,Coded,,Haiti_Emergency;Haiti_Priority;Haiti_Queue,,,,,,,,,
+,,,Haiti_Triage information,,Triage information,,,,ConvSet,N/A,,,Haiti_Triage level,,,,,,,,
