@@ -53,6 +53,3 @@ ee63d1f2-095a-4d28-ba95-fbc933666070,,,HSC_contactPersonRelationship,,Contact Pe
 ,,,HSC_Other_Insurance,,Other,,,,Misc,N/A,,,,,,,,,,,
 ,,,HSC_None_Insurance,,None,,,,Misc,N/A,,,,,,,,,,,
 b7003acb-fca3-4a5b-bad9-62514116d764,,,HSC_Insurance_Company,,Insurance Company,,,,Misc,Coded,,HSC_AIC; HSC_INASSA; HSC_CAH; HSC_CONAM; HSC_OFATMA; HSC_SOGE_Assurance; HSC_UniAssurances; HSC_GMC_Henner; HSC_CIGNA_(Vanbreda); HSC_Other_Insurance; HSC_None_Insurance,,,,,,,,,
-c1935955-b2a5-47c2-8e78-1c9a44aeed54,,,Heart failure,Arrêt cardiaque,Heart failure,Arrêt cardiaque,,,Misc,N/A,,,,,,,,,,,
-42ff2076-d570-4703-a826-53432386d529,,,"Death Note, Brought dead",Amené(e) mort(e),"Death Note, Brought dead",Amené(e) mort(e),,,Misc,Boolean,,,,,,,,,,,
-30e1c728-f008-4dd1-ab34-2c34a00fd3a5,,,Reason For Death,Raison du décès,Reason For Death,Raison du décès,,,Misc,N/A,,,c1935955-b2a5-47c2-8e78-1c9a44aeed54; 42ff2076-d570-4703-a826-53432386d529,,,,,,,,

@@ -14,7 +14,7 @@
     </globalProperty>
     <globalProperty>
       <property>concept.reasonForDeath</property>
-      <value>Reason For Death</value>
+      <value></value>
     </globalProperty>
   </globalProperties>
 </config>
