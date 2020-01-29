@@ -9,8 +9,3 @@ Uuid,Void/Retire,Name,Description,View privilege,Edit privilege,_order:1000
 82024e00-3f10-11e4-adec-0800271c1b75,,LAB_RESULT,LAB_RESULT encounter,,,
 82367e09-3f10-11e4-adec-0800271c1b75,,Patient Document,Patient Document Encounter Type,,,
 8243d105-3f10-11e4-adec-0800271c1b75,,VALIDATION NOTES,Validation Notes encounter,,,
-
-
-,,Triage Encounter,An encounter for triaging patients.,
-aaa1a367-3047-4833-af27-b30e2dac9028,,Medical History Encounter,An interview about the patient medical history.,
-439559c2-a3a4-4a25-b4b2-1a0299e287ee,,X-ray Encounter,An encounter during wich X-rays are performed on the patient.,Can: View X-ray encounter,Can: Edit X-ray encounter,
