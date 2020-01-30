@@ -1,6 +1,6 @@
 Uuid,Void/Retire,Name,Description,Format,Foreign uuid,Searchable,Edit privilege,_order:1000
-c3bcd296-eb82-4451-a4b4-eedd1d5f322f,,phoneNumber,Numéro de téléphone,java.lang.String,,TRUE,,
-1102f74e-ea2f-461e-b67f-db58bd136e5c,,2ndPhoneNumber,2nd Numéro de téléphone,java.lang.String,,TRUE,,
+c3bcd296-eb82-4451-a4b4-eedd1d5f322f,,phoneNumber,Numéro de téléphone (1),java.lang.String,,TRUE,,
+1102f74e-ea2f-461e-b67f-db58bd136e5c,,2ndPhoneNumber,Numéro de téléphone (2),java.lang.String,,TRUE,,
 82325788-3f10-11e4-adec-0800271c1b75,TRUE,givenNameLocal,,,,,,
 8233a58a-3f10-11e4-adec-0800271c1b75,TRUE,familyNameLocal,,,,,,
 8d871d18-c2cc-11de-8d13-0010c6dffd0f,,impl.mothersFirstName,Prénom de la mère,java.lang.String,,TRUE,,

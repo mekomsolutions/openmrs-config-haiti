@@ -3,14 +3,14 @@
   <addressComponents>
     <addressComponent>
       <field>COUNTRY</field>
-      <nameMapping>Country</nameMapping>
+      <nameMapping>Pays</nameMapping>
       <sizeMapping>40</sizeMapping>
       <elementDefault>Haiti</elementDefault>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
       <field>STATE_PROVINCE</field>
-      <nameMapping>Department</nameMapping>
+      <nameMapping>Département</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
@@ -22,19 +22,19 @@
     </addressComponent>
     <addressComponent>
       <field>ADDRESS_3</field>
-      <nameMapping>Commune Section</nameMapping>
+      <nameMapping>Section de commune</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
       <field>ADDRESS_1</field>
-      <nameMapping>Locality House</nameMapping>
+      <nameMapping>Maison/Bâtiment</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
       <field>ADDRESS_2</field>
-      <nameMapping>Address</nameMapping>
+      <nameMapping>Adresse</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
