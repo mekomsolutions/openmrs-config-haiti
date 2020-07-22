@@ -1,0 +1,8 @@
+<config>
+  <globalProperties>
+    <globalProperty>
+      <property>emr.concept.diagnosisSetOfSets</property>
+      <value>dbc2ecdb-4e14-11e4-8a57-0800271c1b75</value>
+    </globalProperty>
+  <globalProperties>
+</config>
