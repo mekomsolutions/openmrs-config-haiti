@@ -32,5 +32,5 @@ b3980380-e66c-42e0-b450-45b399331489,,,Haiti_Oxygen Saturation Data,SaO2,,Haiti_
 86b0b049-dac4-44bc-a1d6-7fac1de00f95,,,Haiti_Allergies Form,Allergies,,Haiti_Allergies Form,Allergies,,ConvSet,N/A,,,Haiti_Allergies;,,,,,,,,
 df25c3be-b940-45e8-8236-d43edb2d358e,,,Haiti_Allergy History,Allergies,,Haiti_Allergy History,Allergies,,ConvSet,N/A,,,Haiti_Allergies;,,,,,,,,
 06188def-b659-4feb-8899-d513f49b67fb,,,Haiti_Blood Pressure Set,Blood Pressure,,Haiti_Blood Pressure Set,Tension artérielle,,ConvSet,N/A,,,Haiti_Systolic Blood Pressure Data; Haiti_Diastolic Blood Pressure Data;,,,,,,,,
-f074942b-666b-4ca3-9f0e-1103128b3ae2,,,Haiti_Arm Circumference,Arm Circumference,,Haiti_Arm Circumference,Périmètre Bracchial,,Question,Numeric,,,,TRUE,,36.7,37.5,10,120,,
+f074942b-666b-4ca3-9f0e-1103128b3ae2,,,Haiti_Arm Circumference,Arm Circumference,,Haiti_Arm Circumference,Périmètre Bracchial,,Question,Numeric,,,,TRUE,,,,,,,
 773d36e9-119e-452c-91ee-4ac90245e504,,,Haiti_Vital Signs Form,Vital Signs,,Haiti_Vital Signs Form,Signes Vitaux,,ConvSet,N/A,,,Nutritional Values; Haiti_Blood Pressure Set; Haiti_Pulse Data; Haiti_Temperature Data; Haiti_Respiratory Rate Data; Haiti_Oxygen Saturation Data; Haiti_Arm Circumference;,,,,,,,,
