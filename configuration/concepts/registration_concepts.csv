@@ -6,7 +6,7 @@ c064ecf5-a6ea-48ce-807d-a8e554c13f8d,,CIEL:1060,Living_with_Partner,Living_with_
 7f980dba-41c2-42a5-9ddc-ccffdc881a38,,CIEL:1058,Divorced,Divorced,Divorced,Divorcé,,,Misc,N/A,,,,,,,,,,,
 73515be9-3f0e-4844-b28b-12967968e477,,CIEL:1059,Widowed,Widowed,Widowed,Veuf(ve),,,Misc,N/A,,,,,,,,,,,
 4e7a07f2-345f-419c-8d30-b060d9b8681a,,CIEL:163466,Social_Status,Social_Status,Social Status,Situation maritale,,,Misc,Coded,,Single; Married; Living_with_Partner; Separated; Divorced; Widowed,,,,,,,,,
-c0382185-dde5-4b1f-98e0-f843df4a4dfa,,,Housework,Housework,Housework,Au foyer,,,Misc,N/A,,,,,,,,,,,
+c0382185-dde5-4b1f-98e0-f843df4a4dfa,,CIEL:160295,Housework,Housework,Housework,Au foyer,,,Misc,N/A,,,,,,,,,,,
 52c210e8-1ae3-4a68-bd32-54650598e76e,,CIEL:165201,Factory_worker,Factory_worker,Factory worker,Ouvrier,,,Misc,N/A,,,,,,,,,,,
 1a3df050-8460-4c33-ac0b-f35d3079b261,,,Brewer,Brewer,Brewer,Brasseur,,,Misc,N/A,,,,,,,,,,,
 e50822cb-0de3-4321-8fde-8e36335c1106,,CIEL:162946,Teacher,Teacher,Teacher,Enseignant,,,Misc,N/A,,,,,,,,,,,
