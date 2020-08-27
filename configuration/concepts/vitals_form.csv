@@ -1,7 +1,7 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:900
-5089AAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL:5089,WEIGHT,Weight,,WEIGHT,Poids,,Misc,Numeric,,,,TRUE,kg,,,0,700,,
-,,,"WEIGHT, grams","Weight, grams",,"WEIGHT, grams","Poids, grammes",,Misc,Numeric,,,,,g,,,0,,,
-5090AAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL:5090,HEIGHT,Height,,HEIGHT,Taille,,Misc,Numeric,,,,TRUE,cm,,,0,,,
+5089AAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL:5089,Weight,Weight,,Weight,Poids,,Misc,Numeric,,,,TRUE,kg,,,0,700,,
+,,,"Weight, grams","Weight, grams",,"Weight, grams","Poids, grammes",,Misc,Numeric,,,,,g,,,0,,,
+5090AAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL:5090,Height,Height,,Height,Taille,,Misc,Numeric,,,,TRUE,cm,,,0,,,
 c367d9ee-3f10-11e4-adec-0800271c1b75,,CIEL:1342,BMI,BMI,,BMI,IMC,,Computed,Numeric,,,,TRUE,kg/m2,,,,,,
 c368694c-3f10-11e4-adec-0800271c1b75,,,BMI STATUS,BMI STATUS,,BMI STATUS,IMC status,,Computed,Text,,,,,,,,,,,
 0b9e358e-c9cf-439e-8c00-69f873cec59f,,CIEL:5087,Pulse,Pulse,,Pulse,Pouls,,Question,Numeric,,,,,beats/min,60,160,10,230,,
@@ -16,4 +16,4 @@ c642aeb3-95d3-4d1b-aa5b-1273b438d14f,,CIEL:5092,Oxygen Saturation,SaO2,,Oxygen S
 df25c3be-b940-45e8-8236-d43edb2d358e,,,Allergy History,Allergies,,Allergy History,Allergies,,ConvSet,N/A,,,Allergies;,,,,,,,,
 06188def-b659-4feb-8899-d513f49b67fb,,,Blood Pressure Set,Blood Pressure,,Blood Pressure Set,Tension artérielle,,ConvSet,N/A,,,Systolic Blood Pressure; Diastolic Blood Pressure;,,,,,,,,
 f074942b-666b-4ca3-9f0e-1103128b3ae2,,CIEL:1343,Mid-Upper Arm Circumference,Mid-Upper Arm Circumference,,Mid-Upper Arm Circumference,Périmètre bracchial,,Question,Numeric,,,,TRUE,cm,,,,,,
-773d36e9-119e-452c-91ee-4ac90245e504,,CIEL:1114,Vital Signs,Vital Signs,,Vital Signs Form,Signes vitaux,,ConvSet,N/A,,,Blood Pressure Set; Pulse; Temperature; Respiratory Rate; Oxygen Saturation; Mid-Upper Arm Circumference;,,,,,,,,
+773d36e9-119e-452c-91ee-4ac90245e504,,CIEL:1114,Vital Signs,Vital Signs,,Vital Signs,Signes vitaux,,ConvSet,N/A,,,Blood Pressure Set; Pulse; Temperature; Respiratory Rate; Oxygen Saturation; Mid-Upper Arm Circumference;,,,,,,,,
