@@ -14,7 +14,7 @@
     </globalProperty>
     <globalProperty>
       <property>concept.reasonForDeath</property>
-      <value></value>
+      <value>Reason For Death</value>
     </globalProperty>
     <globalProperty>
       <property>mrs.genders</property>
