@@ -1,0 +1,12 @@
+uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1100
+b0823b2c-4bc8-2a7c-41b5-7bf3c7f14e82,,,Duration,Durée,Duration,Durée,,,Misc,Numeric,,,,,,,,,,,
+4f6bc54d-6168-881b-86c7-7c4f1d7a4e9e,,CIEL:1074,Months,Mois,Months,Mois,,,Misc,N/A,,,,,,,,,,,
+850c5ae8-38eb-270b-2ff2-e4ade2e95faf,,CIEL:1822,Hours,Heures,Hours,Heures,,,Misc,N/A,,,,,,,,,,,
+327cdb97-571c-2d13-306b-4024fce268cb,,CIEL:1072,Days,Jours,Days,Jours,,,Misc,N/A,,,,,,,,,,,
+1c4d0d14-8ea9-7755-3ae7-03c88e66a41a,,CIEL:1073,Weeks,Semaines,Weeks,Semaines,,,Misc,N/A,,,,,,,,,,,
+ae703c82-ed81-4b14-be4b-966949a1a696,,,Acute,Aigue,Acute,Aigue,,,Misc,N/A,,,,,,,,,,,
+9de275a5-d92c-4868-8430-973ebcc9d593,,,Chronic,Chronique,Chronic,Chronique,,,Misc,N/A,,,,,,,,,,,
+373b5749-82ff-a3d8-2e13-db76dd0499b3,,,Time Units,Unités de temps,Time lapse,Unités de temps,,,Misc,Coded,,Months;Hours;Days;Weeks,,,,,,,,,
+c85623b5-7630-246e-a77e-65b146c713f1,,,Acute/Chronic,Aigue/Chronique,Acute/Chronic,Aigue/Chronique,,,Misc,Coded,,Acute;Chronic,,,,,,,,,
+6d1b036f-829e-1c52-a74c-a8ec6d2f2d15,,,Physical examination notes,Notes de l'examen physique,Physical examination notes,Notes de l'examen physique,,,Misc,Text,,,,,,,,,,,
+b16066fa-6291-4375-3a39-f9f987320f88,,,Picture,Image,Picture,Image,,,Image,Complex,,,,,,,,,,,
