@@ -1,0 +1,71 @@
+{
+    "formJson": {
+      "id": 10,
+      "uuid": "ae15b17f-6f50-433b-99d5-92b247846a37",
+      "name": "Echographie gynécologique",
+      "version": "1",
+      "published": true,
+      "auditInfo": {
+        "creator": {
+          "uuid": "b7c1eb5d-028c-11eb-bcf9-0242ac140006",
+          "display": "superman",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://openmrs:8080/openmrs/ws/rest/v1/user/b7c1eb5d-028c-11eb-bcf9-0242ac140006"
+            }
+          ]
+        },
+        "dateCreated": "2020-09-29T20:55:49.000+0000",
+        "changedBy": {
+          "uuid": "b7c1eb5d-028c-11eb-bcf9-0242ac140006",
+          "display": "superman",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://openmrs:8080/openmrs/ws/rest/v1/user/b7c1eb5d-028c-11eb-bcf9-0242ac140006"
+            }
+          ]
+        },
+        "dateChanged": "2020-09-29T20:56:21.000+0000"
+      },
+      "resources": [
+        {
+          "value": "{\"name\":\"Echographie gynécologique\",\"id\":10,\"uuid\":\"ae15b17f-6f50-433b-99d5-92b247846a37\",\"defaultLocale\":\"en\",\"controls\":[{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"OTHER_OBSERVATIONS_1\",\"id\":\"1\",\"units\":\"\",\"type\":\"label\",\"value\":\"Observations\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":0}},\"id\":\"1\",\"concept\":{\"name\":\"Other observations\",\"uuid\":\"4d1f668f-f9b7-4e95-8436-53f37e8c643e\",\"datatype\":\"Text\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null}],\"events\":{\"onFormSave\":\"\",\"onFormInit\":\"\"},\"translationsUrl\":\"/openmrs/ws/rest/v1/bahmniie/form/translations\"}",
+          "dataType": "org.bahmni.customdatatype.datatype.FileSystemStorageDatatype",
+          "uuid": "74946f36-dc2b-4e29-a9ba-6ce0d665aa00"
+        },
+        {
+          "value": "[{\"display\":\"Echographie gynécologique\",\"locale\":\"en\"},{\"display\":\"Echographie gynécologique\",\"locale\":\"fr\"}]",
+          "dataType": "org.bahmni.customdatatype.datatype.FormNameTranslationDatatype",
+          "uuid": "3ae97f1e-08ab-4b38-857a-d029902d40b3"
+        }
+      ]
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "labels": {},
+        "concepts": {
+          "OTHER_OBSERVATIONS_1": "Observations"
+        },
+        "formName": "Echographie gynécologique",
+        "formUuid": null,
+        "version": "1",
+        "referenceVersion": null,
+        "referenceFormUuid": null
+      },
+      {
+        "locale": "fr",
+        "labels": {},
+        "concepts": {
+          "OTHER_OBSERVATIONS_1": "Observations"
+        },
+        "formName": "Echographie gynécologique",
+        "formUuid": null,
+        "version": "1",
+        "referenceVersion": null,
+        "referenceFormUuid": null
+      }
+    ]
+  }
