@@ -7,7 +7,7 @@ a4d0c480-923b-49fe-b125-80453675fdea,,CIEL:1734,Years,An(s),Years,An(s),,,Misc,N
 1c4d0d14-8ea9-7755-3ae7-03c88e66a41a,,CIEL:1073,Weeks,Semaines,Weeks,Semaines,,,Misc,N/A,,,,,,,,,,,
 ae703c82-ed81-4b14-be4b-966949a1a696,,,Acute,Aigue,Acute,Aigue,,,Misc,N/A,,,,,,,,,,,
 9de275a5-d92c-4868-8430-973ebcc9d593,,,Chronic,Chronique,Chronic,Chronique,,,Misc,N/A,,,,,,,,,,,
-373b5749-82ff-a3d8-2e13-db76dd0499b3,,,Time Units,Unités de temps,Time Units,Unités de temps,,,Misc,Coded,,Years;Months;Hours;Days;Weeks,,,,,,,,,
+373b5749-82ff-a3d8-2e13-db76dd0499b3,,,Time Units,Unités de temps,Time Units,Unités de temps,,,Misc,Coded,,Hours;Days;Weeks;Months;Years,,,,,,,,,
 c85623b5-7630-246e-a77e-65b146c713f1,,,Acute/Chronic,Aigue/Chronique,Acute/Chronic,Aigue/Chronique,,,Misc,Coded,,Acute;Chronic,,,,,,,,,
 6d1b036f-829e-1c52-a74c-a8ec6d2f2d15,,,Physical examination notes,Notes de l'examen physique,Physical examination notes,Notes de l'examen physique,,,Misc,Text,,,,,,,,,,,
 b16066fa-6291-4375-3a39-f9f987320f88,,,Picture,Image,Picture,Image,,,Image,Complex,,,,,,,,,,,
