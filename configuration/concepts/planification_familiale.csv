@@ -6,7 +6,5 @@ f1f57397-ba51-4218-9cae-da74b6b52543,,CIEL:190,Condom (unity),Condom (unité),Co
 85ceb4d6-585d-48e1-8e46-af7e517b4667,,CIEL:1873,Jadel,Jadel,Jadel,Jadel,,,Misc,N/A,,,,,,,,,,,
 501d6e10-1f79-46d7-a5e5-9e95e66adc08,,CIEL:374,FP administred,PF administré,FP administred,PF administré,,,Misc,Coded,,Microgynon (plaquette);Microlut (plaquette);Depo Provera Injection;Condom (unity);Jadel,,,,,,,,,
 f5e7648d-9dfb-4506-9602-000ab940a197,,,Distributed Quantity,Quantité distribuée,Distributed Quantity,Quantité distribuée,,,Misc,Numeric,,,,,,,,,,,
-8505e4f9-c0d3-4903-97ad-7efbc500c449,,,New,Nouveau,New,Nouveau,,,Misc,N/A,,,,,,,,,,,
-b5f7f595-88ea-4522-ba92-96454240a54f,,,Existent,Existant,Existent,Existant,,,Misc,N/A,,,,,,,,,,,
 637b1b53-adda-45f9-a2aa-3c5aa3fb200a,,,Type of user,Type d'utilisateur,Type of user,Type d'utilisateur,,,Misc,Coded,,New;Existent,,,,,,,,,
 a78683f9-43ad-4fc8-3a80-0c0f990618ad,,,Family Planning,Planification Familiale,Family Planning,Planification Familiale,,,ConvSet,N/A,,,FP administred; Distributed Quantity; Type of user;,,,,,,,,
