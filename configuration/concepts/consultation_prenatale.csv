@@ -2,6 +2,8 @@ uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:f
 5bab781c-96be-4c32-b75b-d7906ddff555,,,Number of Pregnancies,Nombre de grossesses,Number of Pregnancies,Nombre de grossesses,,,Misc,Numeric,,,,FALSE,,,,,,,
 b346c76b-56ba-4c27-97cc-f7b0f85bf581,,CIEL:160080,Number of Term Pregnancies,Nombre de grossesses à terme (parité),Number of Term Pregnancies,Nombre de grossesses à terme (Parité),,,Misc,Numeric,,,,FALSE,,,,,,,
 1b6a7d76-755c-4db9-8f05-42fe28fc3175,,CIEL:160601,Number of live births,Nombre de naissances vivantes,Number of live births,Nombre de naissances vivantes,,,Misc,Numeric,,,,FALSE,,,,,,,
+88e9ef3b-651f-47ea-89c5-5f751cee165b,,,Number of abortions,Nombre d’avortements,Number of abortions,Nombre d’avortements,,,Misc,Numeric,,,,FALSE,,,,,,,
+
 dfb79477-ab61-47c4-b308-e1ab09757c18,,CIEL:162595,Vaginal delivery,Vvoie naturelle,Vaginal delivery,Voie naturelle,,,Finding,N/A,,,,,,,,,,,
 5066f452-5d8b-4e04-b815-0c212929e47e,,CIEL:1171,Cesarean,Césarienne,Cesarean,Césarienne,,,Misc,N/A,,,,,,,,,,,
 90950144-af82-460d-9393-e5e412445075,,,No workbirth (Abortion),Aucun accouchement (Avortement),No workbirth (Abortion),Aucun accouchement (Avortement),,,Misc,N/A,,,,,,,,,,,
