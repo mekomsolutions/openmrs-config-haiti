@@ -40,7 +40,7 @@
     join person per on pr.person_id=per.person_id and per.voided=0
     join location l on l.uuid=${visit_location_uuid} and l.location_id = v.location_id
     join obs ob on ob.encounter_id = en.encounter_id and ob.voided=0 and ob.value_coded = (
-        select distinct concept_id from concept_name where name = "Haiti_Emergency"
+        select distinct concept_id from concept_name where name = "Emergency"
     )
     join ( select obs_id from obs where voided=0 and obs_datetime in (select max(obs_datetime) from obs group by person_id, concept_id) ) ob2 on ob.obs_id = ob2.obs_id
     left outer join visit_attribute va on va.visit_id = v.visit_id and va.voided = 0 and va.attribute_type_id = (
@@ -70,7 +70,7 @@
     join person per on pr.person_id=per.person_id and per.voided=0
     join location l on l.uuid=${visit_location_uuid} and l.location_id = v.location_id
     join obs ob on ob.encounter_id = en.encounter_id and ob.voided=0 and ob.value_coded = (
-        select distinct concept_id from concept_name where name = "Haiti_Priority"
+        select distinct concept_id from concept_name where name = "Priority"
     )
     join ( select obs_id from obs where voided=0 and obs_datetime in (select max(obs_datetime) from obs group by person_id, concept_id) ) ob2 on ob.obs_id = ob2.obs_id
     left outer join visit_attribute va on va.visit_id = v.visit_id and va.voided = 0 and va.attribute_type_id = (
