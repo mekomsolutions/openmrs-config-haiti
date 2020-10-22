@@ -111,17 +111,5 @@
     v.date_stopped is null
     order by en.encounter_datetime desc</value>
     </globalProperty>
-    <globalProperty>
-      <property>order.drugDosingUnitsConceptUuid</property>
-      <value>9d5b708e-3f10-11e4-adec-0800271c1b75</value>
-    </globalProperty>
-    <globalProperty>
-      <property>order.drugRoutesConceptUuid</property>
-      <value>9d697972-3f10-11e4-adec-0800271c1b75</value>
-    </globalProperty>
-    <globalProperty>
-      <property>order.dosingInstructionsConceptUuid</property>
-      <value>29894afc-0c2e-4a0e-9039-0c996017c75e</value>
-    </globalProperty>
   </globalProperties>
 </config>
