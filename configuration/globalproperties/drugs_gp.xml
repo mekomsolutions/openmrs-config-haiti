@@ -12,5 +12,9 @@
       <property>order.dosingInstructionsConceptUuid</property>
       <value>29894afc-0c2e-4a0e-9039-0c996017c75e</value>
     </globalProperty>
+    <globalProperty>
+      <property>order.durationUnitsConceptUuid</property>
+      <value>b1efceca-31e0-4369-9dc1-73f483ba5b79</value>
+    </globalProperty>
     </globalProperties>
 </config>
