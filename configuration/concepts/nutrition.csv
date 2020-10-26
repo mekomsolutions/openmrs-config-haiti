@@ -4,7 +4,7 @@ edaef9f4-2b5b-4b71-9019-74f1d40ad4d7,,CIEL:460,Oedema,Œdème,Oedema,Œdème,,,M
 8dfc3ec9-771a-42b6-ad45-aa0ac15b660c,,,MUAC<115mm,PB<115mm,MUAC<115mm,PB<115mm,,,Misc,N/A,,,,,,,,,,,
 6a7ea608-0546-40f1-92d2-cd020e980414,,CIEL:1655,Admission Criteria,Critère d'admission,Admission Criteria,Critère d'admission,,,Misc,Coded,,Oedema;Weight-for-height<-3SD/BMI<16;MUAC<115mm,,,,,,,,,
 a2224476-1827-4270-9ace-c8fd7898fd21,,,Readmission,Réadmission,Readmission,Réadmission,,,Misc,Coded,,Yes;No,,,,,,,,,
-fc1f3f86-9332-4714-a4f4-ce88c173a5c2,,CIEL:163102,Weight goal,Objectif de poids,Weight goal,Objectif de poids,,,Misc,Numeric,,,,TRUE,Kg,,,,,,
+fc1f3f86-9332-4714-a4f4-ce88c173a5c2,,CIEL:163102,Weight Goal,Objectif de poids,Weight Goal,Objectif de poids,,,Misc,Numeric,,,,TRUE,Kg,,,,,,
 5f2ee7bc-8dcf-4617-b31c-2ac6c07617b5,,,Zero,Zéro,0,0,,,Misc,N/A,,,,,,,,,,,
 e7c0fefc-96e8-4ccb-b24b-92ec2024f579,,CIEL:1362,One plus,Un plus,+,+,,,Misc,N/A,,,,,,,,,,,
 9f14f988-be10-419b-b947-0508664b7ef2,,CIEL:1363,Two plus,Deux plus,++,++,,,Misc,N/A,,,,,,,,,,,
