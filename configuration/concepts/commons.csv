@@ -96,7 +96,7 @@ a4d0c480-923b-49fe-b125-80453675fdea,,CIEL:1734,Year(s),An(s),Year(s),An(s),,,Mi
 88e55059-0ba4-11eb-a3aa-0242ac140008,,CIEL:1073;SNOMED:258705008,Week(s),Semaine(s),Week(s),Semaine(s),,,Misc,N/A,,,,,,,,,,,
 ae703c82-ed81-4b14-be4b-966949a1a696,,,Acute,Aigu,Acute,Aigu,,,Misc,N/A,,,,,,,,,,,
 9de275a5-d92c-4868-8430-973ebcc9d593,,,Chronic,Chronique,Chronic,Chronique,,,Misc,N/A,,,,,,,,,,,
-b1efceca-31e0-4369-9dc1-73f483ba5b79,,,Duration Units,Unités de durée,Duration Units,Unités de durée,,,Question,Coded,,Day(s);Week(s);Month(s),Day(s);Week(s);Month(s),,,,,,,,
+b1efceca-31e0-4369-9dc1-73f483ba5b79,,,Treatment Duration Units,Unités de durée de traitement,Treatment Duration Units,Unités de durée de traitement,,,Question,Coded,,Day(s);Week(s);Month(s),Day(s);Week(s);Month(s),,,,,,,,
 373b5749-82ff-a3d8-2e13-db76dd0499b3,,,Time Units,Unités de temps,Time Units,Unités de temps,,,Misc,Coded,,Hour(s);Day(s);Week(s);Month(s);Year(s),,,,,,,,,
 c85623b5-7630-246e-a77e-65b146c713f1,,,Acute/Chronic,Aigu/Chronique,Acute/Chronic,Aigu/Chronique,,,Misc,Coded,,Acute;Chronic,,,,,,,,,
 6d1b036f-829e-1c52-a74c-a8ec6d2f2d15,,,Physical examination notes,Notes de l'examen physique,Physical examination notes,Notes de l'examen physique,,,Misc,Text,,,,,,,,,,,
