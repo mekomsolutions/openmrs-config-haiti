@@ -40,7 +40,7 @@
     join person per on pr.person_id=per.person_id and per.voided=0
     join location l on l.uuid=${visit_location_uuid} and l.location_id = v.location_id
     join obs ob on ob.encounter_id = en.encounter_id and ob.voided=0 and ob.value_coded = (
-        select distinct concept_id from concept_name where name = "Emergency" and concept_name_type="FULLY_SPECIFIED"
+      select concept_id from concept where uuid='2acd52d4-a0c5-45da-be77-0fe34bb3dd84'
     )
     join ( select obs_id from obs where voided=0 and obs_datetime in (select max(obs_datetime) from obs group by person_id, concept_id) ) ob2 on ob.obs_id = ob2.obs_id
     left outer join visit_attribute va on va.visit_id = v.visit_id and va.voided = 0 and va.attribute_type_id = (
@@ -70,7 +70,7 @@
     join person per on pr.person_id=per.person_id and per.voided=0
     join location l on l.uuid=${visit_location_uuid} and l.location_id = v.location_id
     join obs ob on ob.encounter_id = en.encounter_id and ob.voided=0 and ob.value_coded = (
-        select distinct concept_id from concept_name where name = "Priority" and concept_name_type="FULLY_SPECIFIED"
+      select concept_id from concept where uuid='63cf8bf7-7316-4b35-9bb6-2ef11384ca07'
     )
     join ( select obs_id from obs where voided=0 and obs_datetime in (select max(obs_datetime) from obs group by person_id, concept_id) ) ob2 on ob.obs_id = ob2.obs_id
     left outer join visit_attribute va on va.visit_id = v.visit_id and va.voided = 0 and va.attribute_type_id = (
@@ -95,9 +95,7 @@
       join global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid
       join person p on p.person_id = v.patient_id
       join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id
-      join visit_type vt on vt.visit_type_id = v.visit_type_id and vt.retired = 0 and vt.uuid = (
-        select distinct uuid from visit_type where name = "Prenatal" and retired = 0
-        )
+      join visit_type vt on vt.visit_type_id = v.visit_type_id and vt.retired = 0 and vt.uuid = '35ba9aff-901c-49dc-8630-a59385480d18'
       left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
         select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
       ) and va.voided = 0
@@ -118,9 +116,7 @@
       join global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid
       join person p on p.person_id = v.patient_id
       join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id
-      join visit_type vt on vt.visit_type_id = v.visit_type_id and vt.retired = 0 and vt.uuid = (
-        select distinct uuid from visit_type where name = "Family Planning" and retired = 0
-        )
+      join visit_type vt on vt.visit_type_id = v.visit_type_id and vt.retired = 0 and vt.uuid = 'c4643116-8a61-499f-b62b-ff9375db0b7d'
       left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
         select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
       ) and va.voided = 0
@@ -141,9 +137,7 @@
       join global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid
       join person p on p.person_id = v.patient_id
       join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id
-      join visit_type vt on vt.visit_type_id = v.visit_type_id and vt.retired = 0 and vt.uuid = (
-        select distinct uuid from visit_type where name = "Infant Vaccination" and retired = 0
-        )
+      join visit_type vt on vt.visit_type_id = v.visit_type_id and vt.retired = 0 and vt.uuid = '91c6bdce-3b92-42a2-9fa8-6ef6b169c4b2'
       left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
         select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
       ) and va.voided = 0
@@ -164,9 +158,7 @@
       join global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid
       join person p on p.person_id = v.patient_id
       join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id
-      join visit_type vt on vt.visit_type_id = v.visit_type_id and vt.retired = 0 and vt.uuid = (
-        select distinct uuid from visit_type where name = "Malnutrition" and retired = 0
-        )
+      join visit_type vt on vt.visit_type_id = v.visit_type_id and vt.retired = 0 and vt.uuid = 'a631dbbc-daa4-48aa-8fe4-3b5784360ab1'
       left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
         select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
       ) and va.voided = 0
@@ -187,9 +179,7 @@
       join global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid
       join person p on p.person_id = v.patient_id
       join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id
-      join visit_type vt on vt.visit_type_id = v.visit_type_id and vt.retired = 0 and vt.uuid = (
-        select distinct uuid from visit_type where name = "General" and retired = 0
-        )
+      join visit_type vt on vt.visit_type_id = v.visit_type_id and vt.retired = 0 and vt.uuid = 'b9ba7b27-e64b-44d1-b4c5-2ced77f477d0'
       left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
         select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
       ) and va.voided = 0
