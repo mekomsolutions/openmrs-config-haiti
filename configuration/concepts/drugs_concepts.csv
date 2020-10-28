@@ -1,4 +1,4 @@
-Uuid,Void/Retire,Short name:en,Fully specified name:en,Fully specified name:fr,Data class,Data Type,,_version:1,_order:500
+Uuid,Void/Retire,Short name:en,Fully specified name:en,Fully specified name:fr,Data class,Data Type,Members,_version:1,_order:500
 a5a5aaf1-541e-4ca6-9753-bd4b0e479f81,,,Ciprofloxacin,Ciprofloxacine,Drug,N/A,,,
 f9608d19-a304-4508-9074-4858cd3ccbed,,,Metronidazole,Métronidazole,Drug,N/A,,,
 9881091b-1802-4c62-8b80-a8fcb170b59f,,,Paracetamol,Paracétamol,Drug,N/A,,,
@@ -307,4 +307,4 @@ a86aa3b5-1e6e-4eb0-bc3c-e564d60eb490,,,Benzocaine-Chloroxylenol,Benzocaïne-chlo
 8836eada-b012-423d-bb77-e4da796f5885,,,"Acetaminophen,Pseudo-ephedrine,Dextrometorphan,Chlorpheniramine","Acétaminophène,pseudo-éphédrine,dextrométorphane,chlorphéniramine",Drug,N/A,,,
 b7bab21f-5d84-4e48-b056-bdc25e696365,,,Vitamin C,Vitamine C,Drug,N/A,,,
 e0cf9a43-ec8a-4b41-a856-688983c1a974,,,Amino Acids and Vitamins,Acides aminés et vitamines,Drug,N/A,,,
-7f27a5d2-cf2c-46da-a3c8-efaaa52c08e3,,,Albendazole and Vitamin A Set,Albendazole and Vitamine A Set,MedSet,N/A,Albendazole;Vitamin A,,
+7f27a5d2-cf2c-46da-a3c8-efaaa52c08e3,,,Albendazole and Vitamin A Set,Albendazole en Vitamine A Set,MedSet,N/A,Albendazole;Retinol (Vitamin A),,
