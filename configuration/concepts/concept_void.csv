@@ -2,8 +2,6 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:f
 ,TRUE,,Yes,,,,,,Misc,N/A,,,,,,,,,,,
 ,TRUE,,No,,,,,,Misc,N/A,,,,,,,,,,,
 ,TRUE,,Month(s),,,,,,Misc,N/A,,,,,,,,,,,
-,TRUE,,Year(s),,,,,,Misc,N/A,,,,,,,,,,,
 ,TRUE,,Hour(s),,,,,,Misc,N/A,,,,,,,,,,,
-,TRUE,,Day(s),,,,,,Misc,N/A,,,,,,,,,,,
 ,TRUE,,Week(s),,,,,,Misc,N/A,,,,,,,,,,,
 ,TRUE,,All Observation Templates,,,,,,ConvSet,N/A,,,,,,,,,,,

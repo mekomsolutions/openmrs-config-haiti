@@ -101,7 +101,6 @@ b1efceca-31e0-4369-9dc1-73f483ba5b79,,,Treatment Duration Units,Unités de duré
 373b5749-82ff-a3d8-2e13-db76dd0499b3,,,Time Units,Unités de temps,Time Units,Unités de temps,,,Misc,Coded,,Hour(s);Day(s);Week(s);Month(s);Year(s),,,,,,,,,
 c85623b5-7630-246e-a77e-65b146c713f1,,,Acute/Chronic,Aigu/Chronique,Acute/Chronic,Aigu/Chronique,,,Misc,Coded,,Acute;Chronic,,,,,,,,,
 6d1b036f-829e-1c52-a74c-a8ec6d2f2d15,,,Physical examination notes,Notes de l'examen physique,Physical examination notes,Notes de l'examen physique,,,Misc,Text,,,,,,,,,,,
-6ca268aa-0381-4e83-8c84-38aaf2fcd102,,,All Orderables,All Orderables,,,,,ConvSet,N/A,,,Lab Samples,,,,,,,,
 276cccb6-0c0b-4f84-8947-298aceea5e62,,,Health Centre,Centre de santé,Health Centre,Centre de santé,,,Misc,Coded,,St Jean Limbe Hospital;Good Samaritain Limbe Hospital;Justinien Cap Haitien Hospital;Sacred Heart Milot Hospital;HBCH Hospital;Gable Hospital;Borgne Hospital;Trou du Nord Hospital;Other,,,,,,,,,
 f891f12b-9947-4cc4-aa97-b6ba47567a58,,CIEL:162141,Allergies,Allergies,Allergies,Allergies,,,Misc,Text,,,,,,,,,,,
 8505e4f9-c0d3-4903-97ad-7efbc500c449,,,New,Nouveau,New,Nouveau,,,Misc,N/A,,,,,,,,,,,
