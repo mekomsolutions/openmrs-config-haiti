@@ -1,7 +1,7 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:800
 718b4589-2a11-4355-b8dc-aa668a93e098,,CIEL:664,Negative,Négatif,Negative,Négatif,,,Misc,N/A,,,,,,,,,,,
 7acfafa4-f19b-485e-97a7-c9e002dbe37a,,CIEL:703,Positive,Positif,Positive,Positif,,,Misc,N/A,,,,,,,,,,,
-484bfc3e-2109-47ad-beae-4689d5925f26,,CIEL:1138,Indeterminate,Indeterminate,,,,,Misc,N/A,,,,,,,,,,,
+484bfc3e-2109-47ad-beae-4689d5925f26,,CIEL:1138,Indeterminate,Indéterminé,,,,,Misc,N/A,,,,,,,,,,,
 dbff115d-32df-4bd5-8265-832e1f3cbe5e,,CIEL:160912,Fasting blood glucose,Fasting blood glucose,,,,,LabTest,Numeric,,,,Yes,mg/dL,70,126,,,,
 3a7aefbf-3334-4add-88a0-42ee1c6fd8dd,,CIEL:887,Random blood glucose,Random blood glucose,,,,,LabTest,Numeric,,,,Yes,mg/dL,70,180,,,,
 df5686c1-ad0c-4deb-9919-f77446fd5bb9,,CIEL:159644,HbA1C,HbA1C,,,,,LabTest,Numeric,,,,Yes,%,4,6.5,,,,
