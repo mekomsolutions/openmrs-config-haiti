@@ -20,5 +20,9 @@
       <property>mrs.genders</property>
       <value>{"M":"Homme", "F":"Femme", "O":"Autre"}</value>
     </globalProperty>
+    <globalProperty>
+      <property>emr.personImagesDirectory</property>
+      <value>/home/bahmni/person_images</value>
+    </globalProperty>
   </globalProperties>
 </config>
