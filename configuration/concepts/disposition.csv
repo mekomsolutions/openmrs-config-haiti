@@ -1,0 +1,5 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Answers,Members,_version:1,_order:500
+98575ac7-eb49-4b17-aae6-c843e29815fd,,org.openmrs.module.emrapi:TRANSFER,Refer Patient,,Refer Patient,,,,Misc,N/A,,,,
+d664e628-2957-4b02-8a25-28a8cb10fee5,,org.openmrs.module.emrapi:Disposition,Disposition,,Disposition,,,,Question,Coded,Refer Patient,,,
+a6ea10ed-ede7-43e2-83e8-c6be5ca26d76,,org.openmrs.module.emrapi:DispositionNote,Disposition Note,,Disposition Note,,,,Misc,Text,,,,
+caa44025-9e30-4feb-8d2a-c58c91f36bfc,,org.openmrs.module.emrapi:Disposition Concept Set,Disposition Set,,Disposition Set,,,,Misc,N/A,,Disposition;Disposition Note,,
