@@ -53,7 +53,7 @@
         "PRIORITY_1": "Priority"
       },
       "formName": "Triage",
-      "formUuid": null,
+      "formUuid": "79255a2f-29d0-439c-88d9-b9585920d08e",
       "version": "1",
       "referenceVersion": null,
       "referenceFormUuid": null
@@ -68,7 +68,7 @@
         "PRIORITY_1": "Prioritaire"
       },
       "formName": "Triage",
-      "formUuid": null,
+      "formUuid": "79255a2f-29d0-439c-88d9-b9585920d08e",
       "version": "1",
       "referenceVersion": null,
       "referenceFormUuid": null
