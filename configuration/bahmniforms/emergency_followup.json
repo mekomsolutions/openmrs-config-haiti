@@ -1,0 +1,77 @@
+{
+    "formJson": {
+      "id": 4,
+      "uuid": "7c837d6f-5a08-4590-a39f-2b9454bffb4f",
+      "name": "Suivi d’urgences",
+      "version": "1",
+      "published": true,
+      "auditInfo": {
+        "creator": {
+          "uuid": "A4F30A1B-5EB9-11DF-A648-37A07F9C90FB",
+          "display": "daemon",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://openmrs:8080/openmrs/ws/rest/v1/user/A4F30A1B-5EB9-11DF-A648-37A07F9C90FB"
+            }
+          ]
+        },
+        "dateCreated": "2020-10-12T17:12:03.000+0000",
+        "changedBy": {
+          "uuid": "A4F30A1B-5EB9-11DF-A648-37A07F9C90FB",
+          "display": "daemon",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://openmrs:8080/openmrs/ws/rest/v1/user/A4F30A1B-5EB9-11DF-A648-37A07F9C90FB"
+            }
+          ]
+        },
+        "dateChanged": "2020-10-12T17:12:03.000+0000"
+      },
+      "resources": [
+        {
+          "value": "{\"name\":\"Suivi d’urgences\",\"id\":null,\"uuid\":\"7c837d6f-5a08-4590-a39f-2b9454bffb4f\",\"defaultLocale\":\"en\",\"controls\":[{\"type\":\"obsGroupControl\",\"label\":{\"translationKey\":\"EMERGENCY_SET_1\",\"type\":\"label\",\"value\":\"Emergency\",\"id\":\"1\"},\"properties\":{\"addMore\":true,\"location\":{\"column\":0,\"row\":0}},\"id\":\"1\",\"concept\":{\"name\":\"Emergency Set\",\"uuid\":\"0ab68a6e-4002-400b-8d3f-21c8cdd78dac\",\"datatype\":\"N/A\",\"conceptClass\":\"ConvSet\",\"conceptHandler\":null,\"set\":true,\"setMembers\":[{\"name\":\"Date/Time\",\"uuid\":\"b6b02232-2a9f-43c9-a66f-b13d4acc4a93\",\"datatype\":\"Datetime\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},{\"name\":\"Action taken\",\"uuid\":\"7d15e31b-021f-9f99-50e6-50ace62f3962\",\"datatype\":\"Text\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},{\"name\":\"Other observations\",\"uuid\":\"4d1f668f-f9b7-4e95-8436-53f37e8c643e\",\"datatype\":\"Text\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}}]},\"controls\":[{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"DATE/TIME_2\",\"id\":\"2\",\"units\":\"\",\"type\":\"label\",\"value\":\"Date/Time\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":true,\"location\":{\"row\":0,\"column\":0},\"allowFutureDates\":false},\"id\":\"2\",\"concept\":{\"name\":\"Date/Time\",\"uuid\":\"b6b02232-2a9f-43c9-a66f-b13d4acc4a93\",\"datatype\":\"Datetime\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"events\":{\"onValueChange\":\"function(form) {\\n  if (form.get('Date/Time', 0).getValue() === undefined) {\\n    var d = new Date();\\n    var day = d.getDate();\\n    var month = d.getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12\\n    var year = d.getFullYear();\\n    form.get('Date/Time', 0).setValue(year + \\\"-\\\" + month + \\\"-\\\" + day);\\n  }\\n  if (form.get('Date/Time', 1).getValue() === undefined) {\\n    var d = new Date();\\n    var day = d.getDate();\\n    var month = d.getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12\\n    var year = d.getFullYear();\\n    form.get('Date/Time', 1).setValue(year + \\\"-\\\" + month + \\\"-\\\" + day);\\n  }\\n  if (form.get('Date/Time', 2).getValue() === undefined) {\\n    var d = new Date();\\n    var day = d.getDate();\\n    var month = d.getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12\\n    var year = d.getFullYear();\\n    form.get('Date/Time', 2).setValue(year + \\\"-\\\" + month + \\\"-\\\" + day);\\n  }\\n  if (form.get('Date/Time', 3).getValue() === undefined) {\\n    var d = new Date();\\n    var day = d.getDate();\\n    var month = d.getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12\\n    var year = d.getFullYear();\\n    form.get('Date/Time', 3).setValue(year + \\\"-\\\" + month + \\\"-\\\" + day);\\n  }\\n  if (form.get('Date/Time', 4).getValue() === undefined) {\\n    var d = new Date();\\n    var day = d.getDate();\\n    var month = d.getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12\\n    var year = d.getFullYear();\\n    form.get('Date/Time', 4).setValue(year + \\\"-\\\" + month + \\\"-\\\" + day);\\n  }\\n  if (form.get('Date/Time', 5).getValue() === undefined) {\\n    var d = new Date();\\n    var day = d.getDate();\\n    var month = d.getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12\\n    var year = d.getFullYear();\\n    form.get('Date/Time', 5).setValue(year + \\\"-\\\" + month + \\\"-\\\" + day);\\n  }\\n  if (form.get('Date/Time', 6).getValue() === undefined) {\\n    var d = new Date();\\n    var day = d.getDate();\\n    var month = d.getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12\\n    var year = d.getFullYear();\\n    form.get('Date/Time', 6).setValue(year + \\\"-\\\" + month + \\\"-\\\" + day);\\n  }\\n  if (form.get('Date/Time', 7).getValue() === undefined) {\\n    var d = new Date();\\n    var day = d.getDate();\\n    var month = d.getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12\\n    var year = d.getFullYear();\\n    form.get('Date/Time', 7).setValue(year + \\\"-\\\" + month + \\\"-\\\" + day);\\n  }\\n  if (form.get('Date/Time', 8).getValue() === undefined) {\\n    var d = new Date();\\n    var day = d.getDate();\\n    var month = d.getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12\\n    var year = d.getFullYear();\\n    form.get('Date/Time', 8).setValue(year + \\\"-\\\" + month + \\\"-\\\" + day);\\n  }\\n}\"}},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"ACTION_TAKEN_3\",\"id\":\"3\",\"units\":\"\",\"type\":\"label\",\"value\":\"Action taken\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"row\":1,\"column\":0}},\"id\":\"3\",\"concept\":{\"name\":\"Action taken\",\"uuid\":\"7d15e31b-021f-9f99-50e6-50ace62f3962\",\"datatype\":\"Text\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"OTHER_OBSERVATIONS_4\",\"id\":\"4\",\"units\":\"\",\"type\":\"label\",\"value\":\"Other observations\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"row\":2,\"column\":0}},\"id\":\"4\",\"concept\":{\"name\":\"Other observations\",\"uuid\":\"4d1f668f-f9b7-4e95-8436-53f37e8c643e\",\"datatype\":\"Text\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null}]}],\"events\":{\"onFormSave\":\"\",\"onFormInit\":\"\"},\"translationsUrl\":\"/openmrs/ws/rest/v1/bahmniie/form/translations\",\"referenceVersion\":\"1\",\"referenceFormUuid\":\"8dcabfe6-c3e6-4fb9-b5bb-d32eca5638a9\"}",
+          "dataType": "org.bahmni.customdatatype.datatype.FileSystemStorageDatatype",
+          "uuid": "2f25c622-7197-4c2a-8195-b01431a8fe10"
+        },
+        {
+          "value": "[{\"display\":\"Suivi d’urgences\",\"locale\":\"en\"},{\"display\":\"Suivi d’urgences\",\"locale\":\"fr\"}]",
+          "dataType": "org.bahmni.customdatatype.datatype.FormNameTranslationDatatype",
+          "uuid": "f238999c-294e-46f8-ba94-0d42d9106b89"
+        }
+      ]
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "labels": {},
+        "concepts": {
+          "OTHER_OBSERVATIONS_4": "Observations",
+          "ACTION_TAKEN_3": "Action taken",
+          "EMERGENCY_SET_1": "Emergency",
+          "DATE/TIME_2": "Date/Time"
+        },
+        "formName": "Suivi d’urgences",
+        "formUuid": "7c837d6f-5a08-4590-a39f-2b9454bffb4f",
+        "version": "1",
+        "referenceVersion": null,
+        "referenceFormUuid": null
+      },
+      {
+        "locale": "fr",
+        "labels": {},
+        "concepts": {
+          "OTHER_OBSERVATIONS_4": "Observations",
+          "ACTION_TAKEN_3": "Action posée",
+          "EMERGENCY_SET_1": "Urgence",
+          "DATE/TIME_2": "Date/Heure"
+        },
+        "formName": "Suivi d’urgences",
+        "formUuid": "7c837d6f-5a08-4590-a39f-2b9454bffb4f",
+        "version": "1",
+        "referenceVersion": null,
+        "referenceFormUuid": null
+      }
+    ]
+  }

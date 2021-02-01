@@ -46,7 +46,7 @@ aaf90530-149c-45b6-9608-23d7a2ddf03b,,CIEL:162103,Slightly Cloudy,Légèrement t
 862c9e83-c66a-4e38-a5fd-57f7ef757d7e,,CIEL:162101,Urine Appearance,Aspect,Urine Appearance,Aspect,,,LabTest,Coded,,Clear;Slightly Cloudy;Turbid,,,,,,,,,
 6cc30635-0487-45f5-9214-d9c49fcd0372,,,Density,Densité ,Density,Densité ,,,LabTest,Numeric,,,,,,,,,,,
 16d344a9-c47c-4aa6-bb6a-9bfcce69f420,,,pH,pH,pH,pH,,,LabTest,Numeric,,,,,,,,,,,
-d04d3d38-a009-4e7f-a8a0-49e4be99cfbd,,,Blood in urine,Sang,Blood in urine,Sang,,,LabTest,Coded,,Yes;No,,,,,,,,,
+d04d3d38-a009-4e7f-a8a0-49e4be99cfbd,,,Blood in urine,Sang,Blood in urine,Sang,,,LabTest,Coded,,Present;Absent,,,,,,,,,
 1eda2b4c-16e1-4276-9439-116ea7d5ce58,,,Nitrites,Nitrites,Nitrites,Nitrites,,,LabTest,Text,,,,,,,,,,,
 8b1d6a06-a2a8-48ff-aba0-9b06735de0c4,,,Glucose,Glucose,Glucose,Glucose,,,LabTest,Text,,,,,,,,,,,
 38c84115-c528-4472-8bdd-fec228468877,,,Acetone Ketone,Acétone Cétone,Acetone Ketone,Acétone Cétone,,,LabTest,Text,,,,,,,,,,,
