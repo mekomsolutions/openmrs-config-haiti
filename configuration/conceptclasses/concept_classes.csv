@@ -1,0 +1,10 @@
+Uuid,Void/Retire,Name,Description
+0f0a69fc-5c8e-4bf8-b9ad-ed87559bb55c,,Product,Product
+,True,Radiology,
+6c691025-06ca-4b7f-bc4a-3f7b579e3c45,,Radiology,Radiology
+,True,Drug,
+bb022c8b-8012-48e8-ab16-74256f6c251c,,Drug,Drug
+,True,LabTest,
+f9dcedec-4c67-4846-bdad-24eee392e39f,,LabTest,Lab Test
+,True,LabSet,
+7da64417-eb67-466b-98ff-63bf72b7ceeb,,LabSet,Panels
