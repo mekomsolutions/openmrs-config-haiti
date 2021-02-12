@@ -1,0 +1,5 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1100
+eb2cec8a-ee2e-4b12-9026-3d24e88bfab8,,,Referred By,Référencé par,Referred By,Référencé par,,,Misc,Text,,,,,,,,,,,
+68224cb3-5b61-410d-b269-7b4edc572fd8,,,Referral Notes,Notes de référence,Referral Notes,Notes de référence,,,Misc,Text,,,,,,,,,,,
+2ffc2e24-fa5c-4cb1-9366-8faec8225ee6,,,Left without permission,Parti sans autorisation,Left without permission,Parti sans autorisation,,,Misc,Coded,,Haiti_Yes;Haiti_No,,,,,,,,,
+16430ab8-5e6d-4031-a622-815fd0c9e41a,,,Comments,Commentaires,Comments,Commentaires,,,Misc,Text,,,,,,,,,,,
