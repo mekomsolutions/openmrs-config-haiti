@@ -1,4 +1,8 @@
 Uuid,Void/Retire,Name,Description,Java class name,Parent,Concept Classes,_order:100
-67a92bd6-0f88-11ea-8d71-362b9e155667,,Product,An order for a product,org.openmrs.Order,,Product,
+ef83e09d-8885-4f12-be6b-06a80aa62972,,Product,An order for a product,org.openmrs.Order,,Product,
 ,True,Radiology Order,,,,,
-be35014c-0e80-4665-b394-477216867fde,,Radiology Order,An order for radiology,org.openmrs.Order,,Radiology,
+5338a5b1-2cbc-4081-9a9b-9e479e2acaad,,Radiology Order,An order for radiology,org.openmrs.Order,,Radiology,
+,True,Drug Order,,,,,
+16bb6bcf-2e81-4ba5-8583-ff4913201a72,,Drug Order,An order for a medication to be given to the patient,org.openmrs.DrugOrder,,Drug,
+,True,Lab Order,,,,,
+f8ae333e-9d1a-423e-a6a8-c3a0687ebcf2,,Lab Order,An order for laboratory tests,org.openmrs.Order,,LabTest;LabSet,
