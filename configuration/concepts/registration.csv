@@ -36,4 +36,5 @@ b9eaaf1a-be41-4eef-9e12-6b038786fe03,,CIEL:162936,Jehovah's Witness,Témoin de J
 3ac37b90-6276-4f69-ab70-33128040fa76,,CIEL:1527,Parent,Parent,Parent,Parent,,,Misc,N/A,,,,,,,,,,,
 7a475706-0f57-4ed2-ae4a-04a9989fd5df,,CIEL:872,Sibling,Frère ou soeur,Sibling,Frère ou soeur,,,Misc,N/A,,,,,,,,,,,
 2a76a46f-ca46-4629-bed1-8dc7aaf716a4,,CIEL:5618,Friend,Amis,Friend,Amis,,,Misc,N/A,,,,,,,,,,,
-ee63d1f2-095a-4d28-ba95-fbc933666070,,CIEL:164352,contactPersonRelationship,Lien avec la personne contact,Contact Person Relationship,Lien avec la personne contact,,,Misc,Coded,,Parent; Sibling; Friend,,,,,,,,,
+63923579-8593-4852-9be2-c339f18a4aca,,CIEL:5617,Partner/Spouse,Partenaire ou conjoint,Partner/Spouse,Partenaire ou conjoint,,,Misc,N/A,,,,,,,,,,,
+ee63d1f2-095a-4d28-ba95-fbc933666070,,CIEL:164352,contactPersonRelationship,Lien avec la personne contact,Contact Person Relationship,Lien avec la personne contact,,,Misc,Coded,,Parent; Sibling; Partner/Spouse;Friend,,,,,,,,,
