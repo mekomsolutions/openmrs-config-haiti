@@ -3,7 +3,7 @@
     "id": 18,
     "uuid": "ecaa1c38-a30d-4921-b534-ac13be09c59f",
     "name": "Historique de santé",
-    "version": "2",
+    "version": "1",
     "published": true,
     "auditInfo": {
       "creator": {
@@ -92,7 +92,7 @@
       },
       "formName": "Historique de santé",
       "formUuid": "ecaa1c38-a30d-4921-b534-ac13be09c59f",
-      "version": "2",
+      "version": "1",
       "referenceVersion": null,
       "referenceFormUuid": null
     },
@@ -145,7 +145,7 @@
       },
       "formName": "Historique de santé",
       "formUuid": "ecaa1c38-a30d-4921-b534-ac13be09c59f",
-      "version": "2",
+      "version": "1",
       "referenceVersion": null,
       "referenceFormUuid": null
     }
