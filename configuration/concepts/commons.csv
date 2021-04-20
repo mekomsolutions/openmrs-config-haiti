@@ -1,5 +1,5 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:500
-c2ba3844-98b7-4d3c-b98f-4adfc46658ee,,CIEL:1608,Capsule(s),Gellule(s),Capsule(s),Gellule(s),,,Misc,N/A,,,,,,,,,,,
+c2ba3844-98b7-4d3c-b98f-4adfc46658ee,,CIEL:1608,Capsule(s),Gelule(s),Capsule(s),Gelule(s),,,Misc,N/A,,,,,,,,,,,
 6fbbb779-94ca-4d83-8e02-8a559627b9fb,,CIEL:1513,Tablet(s),Comprime(s),Tablet(s),Comprime(s),,,Misc,N/A,,,,,,,,,,,
 22109614-7512-4739-b28a-783354d19aa1,,CIEL:162263,ml,ml,ml,ml,,,Misc,N/A,,,,,,,,,,,
 d34c85d0-f1c5-44d1-bfe3-d19d5ec875b1,,CIEL:161553,mg,mg,mg,mg,,,Misc,N/A,,,,,,,,,,,
@@ -37,7 +37,7 @@ b22ec437-b389-4875-86f9-9662732e384d,,,Twice/Week,2 fois/semaine,Twice/Week,2 fo
 33516e22-8a92-11e4-977f-0800271c1b75,,CIEL:1099,Weekly,Hebdomadaire,Weekly,Hebdomadaire,,,Frequency,N/A,,,,,,,,,,,
 2a148983-c143-4649-b4be-f8845c934ec0,,,Nightly,Chaque nuit,Nightly,Chaque nuit,,,Frequency,N/A,,,,,,,,,,,
 f36097e7-7d66-4196-8d95-6b66f31435cc,,,See comments,Voir Commentaires,See comments,Voir Commentaires,,,Frequency,N/A,,,,,,,,,,,
-9d5b708e-3f10-11e4-adec-0800271c1b75,,CIEL:162384,Dosing Units,Unités de dosage,Dosing Units,Unités de dosage,,,ConvSet,N/A,,,Ampoule(s);Application(s);Bouffee(s);Bouteille(s);Comprime(s);Conteneur(s);Cuillere(s) a cafe;Cuillere(s) a soupe;Fiole(s);Gellule(s);Goutte(s);Inhalateur(s);IU;mg;ml;Ovule(s);Paquet(s);Tube(s);Unite(s);Voir Commentaires,,,,,,,,
+9d5b708e-3f10-11e4-adec-0800271c1b75,,CIEL:162384,Dosing Units,Unités de dosage,Dosing Units,Unités de dosage,,,ConvSet,N/A,,,Ampoule(s);Application(s);Bouffee(s);Bouteille(s);Comprime(s);Conteneur(s);Cuillere(s) a cafe;Cuillere(s) a soupe;Fiole(s);Gelule(s);Goutte(s);Inhalateur(s);IU;mg;ml;Ovule(s);Paquet(s);Tube(s);Unite(s);Voir Commentaires,,,,,,,,
 0de96a2d-5c2c-4110-9770-914369de1713,,CIEL:162390,Ophthalmic,Ophtalmique,Ophthalmic,Ophtalmique,,,Misc,N/A,,,,,,,,,,,
 99cbeb1b-621c-4645-a600-d702364d9885,,CIEL:162387,Otic,Otique,Otic,Otique,,,Misc,N/A,,,,,,,,,,,
 9d6c9153-3f10-11e4-adec-0800271c1b75,,CIEL:162392,Intravaginal,Intravaginale,Intravaginal,Intravaginale,,,Misc,N/A,,,,,,,,,,,
