@@ -1,6 +1,10 @@
 <config>
   <globalProperties>
     <globalProperty>
+      <property>bahmni.encountersession.duration</property>
+      <value>1440</value>
+    </globalProperty>
+    <globalProperty>
       <property>emrapi.sqlSearch.activePatients</property>
       <value>select distinct
           concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
@@ -227,6 +231,6 @@
       ) and va.voided = 0
       where v.date_stopped is null AND v.voided = 0</value>
     </globalProperty>
-    
+
   </globalProperties>
 </config>
