@@ -1,0 +1,16 @@
+{
+    "report.emergency.active " : "true",
+    "report.emergency.question.concept" : "33c31827-1f0d-4843-a84c-e98db2406b27",
+    "report.emergency.roadAccidents.conceptSet" : "1e4555e4-8dd7-47ff-8a16-24d823369a04",
+    "report.emergency.workAccident.concept" : "e3c21cda-c34c-490d-8f35-d5ecf7065f55",
+    "report.emergency.sexualViolence.concept" : "32d73992-5d50-4515-b3d7-1163926f0dd8",
+    "report.emergency.physicalViolence.concept" : "3b5eeccb-dbcf-4a7b-8441-82877df0f620",
+    "report.emergency.otherViolenceType.concept" : "14dd822f-cda0-44b8-9b46-84f2f0eb2be8",
+    "report.emergency.medicalAndSurgicalEmergenciesQuesion.concept" : "33c31827-1f0d-4843-a84c-e98db2406b27",
+    "report.emergency.medicalAndSurgicalEmergenciesSetOfSets.concept" : "3438c279-eb93-4473-88fa-dbd3cb194a7b",
+    "report.emergency.otherEmergencies.conceptSet" : "2713015a-b726-404a-8aef-1ad11809e24d",
+    "report.emergency.otherEmergenciesQuestion.concept" : "33c31827-1f0d-4843-a84c-e98db2406b27",
+    "report.emergency.referredTo.concept" : "276cccb6-0c0b-4f84-8947-298aceea5e62",
+    "report.emergency.leftWithoutPermission.concept" : "2ffc2e24-fa5c-4cb1-9366-8faec8225ee6",
+    "report.emergency.yes.concept" : "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+}
