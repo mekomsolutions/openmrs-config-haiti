@@ -1,5 +1,5 @@
 {
-    "report.emergency.active " : "true",
+    "report.emergency.active" : "true",
     "report.emergency.question.concept" : "33c31827-1f0d-4843-a84c-e98db2406b27",
     "report.emergency.roadAccidents.conceptSet" : "1e4555e4-8dd7-47ff-8a16-24d823369a04",
     "report.emergency.workAccident.concept" : "e3c21cda-c34c-490d-8f35-d5ecf7065f55",
