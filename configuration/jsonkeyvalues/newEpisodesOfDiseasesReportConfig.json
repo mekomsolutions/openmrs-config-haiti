@@ -2,6 +2,6 @@
     "report.newEpisodesOfDiseases.diagnosisList.conceptSet" : "3c93696a-64a3-4165-8d2f-93f725451ee6",
     "report.newEpisodesOfDiseases.questions.conceptSet" : "46e49f70-e78f-4ef5-b7fe-1020d13f7fdb",
     "report.newEpisodesOfDiseases.allDiagnoses.conceptSet" : "07058490-d3e5-46ef-bccc-d552ab7ce642",
-    "report.newEpisodesOfDiseases.referredCodedanswer.concept" : "1ff3db17-7a6f-40bf-8062-a912773e905c",
+    "report.newEpisodesOfDiseases.referredToConcept.concept" : "276cccb6-0c0b-4f84-8947-298aceea5e62",
     "report.newEpisodesOfDiseases.active" : "true"
 }
