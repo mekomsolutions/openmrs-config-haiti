@@ -2,7 +2,7 @@
   <globalProperties>
     <globalProperty>
       <property>bahmni.encountersession.duration</property>
-      <value>1440</value>
+      <value>240</value>
     </globalProperty>
     <globalProperty>
       <property>emrapi.sqlSearch.activePatients</property>
