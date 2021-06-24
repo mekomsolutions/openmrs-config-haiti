@@ -1,0 +1,12 @@
+{
+    "report.childCare.muacMeasurement.numericQuestion.concept" : "f074942b-666b-4ca3-9f0e-1103128b3ae2",
+    "report.childCare.weightMeasurement.numericQuestion.concept" : "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "report.childCare.resultOfVisitQuestion.concept" : "32de1494-eb45-47fa-bc1f-4ea80cb487e5",
+    "report.childCare.malnutrition.visitType.uuid" : "a631dbbc-daa4-48aa-8fe4-3b5784360ab1",
+    "report.childCare.resultOfVisit.curedAnswer.concept" : "713ab6cf-71e6-4f69-9a8a-747b948a5656",
+    "report.childCare.resultOfVisit.withdrawalAnswer.concept" : "3cd5bb6d-29ae-4f3c-90e4-dd77fb08c2ca",
+    "report.childCare.dose.numericQuestion.concept" : "1f4109b3-b201-46df-a341-dcfa5299a187",
+    "report.childCare.vaccinationsQuestion.concept" : "3c25e650-ccfa-48da-b276-a7872796b113",
+    "report.childCare.vitaminA.concept" : "54528cf8-0022-4f32-a038-cbb2d5965ae5",
+    "report.childCare.albendazole.concept" : "8f668b49-584f-4cba-b0f2-817a8aaf50c4"
+}
