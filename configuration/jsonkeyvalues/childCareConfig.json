@@ -1,4 +1,5 @@
 {
+    "report.childCare.active" : "true",
     "report.childCare.muacMeasurement.numericQuestion.concept" : "f074942b-666b-4ca3-9f0e-1103128b3ae2",
     "report.childCare.weightMeasurement.numericQuestion.concept" : "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
     "report.childCare.resultOfVisitQuestion.concept" : "32de1494-eb45-47fa-bc1f-4ea80cb487e5",
