@@ -6,4 +6,4 @@ bc4f2e44-26b0-4f5f-a98f-248601fdf792,,CIEL:5085,Systolic Blood Pressure,Systolic
 8130729f-4605-49b3-b7c0-12b19cc10543,,CIEL:5242,Respiratory Rate,RR,,Frequence respiratoire,Frequence respiratoire,,Question,Numeric,,,,,breaths/min,12,70,,,,
 c642aeb3-95d3-4d1b-aa5b-1273b438d14f,,CIEL:5092,Oxygen Saturation,SaO2,,Saturation d'oxygène,SaO2,,Question,Numeric,,,,,%,95,100,0,100,,
 06188def-b659-4feb-8899-d513f49b67fb,,,Blood Pressure Set,Blood Pressure,,Groupe tension artérielle,Tension artérielle,,ConvSet,N/A,,,Tension artérielle systolique; Tension artérielle diastolique,,,,,,,,
-3fe6460f-3d37-463e-9fb9-df42ab15aec8,,,Pain Scale,Pain Scale,,Échelle de Douleur,Échelle de Douleur,,Misc,Numeric,,,,FALSE,,,,0,10,,
+3fe6460f-3d37-463e-9fb9-df42ab15aec8,,,Pain Scale,Pain Scale,,Échelle de Douleur,Échelle de Douleur,,Question,Numeric,,,,FALSE,,,,0,10,,
