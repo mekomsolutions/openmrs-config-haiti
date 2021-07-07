@@ -5,6 +5,10 @@
       <value></value>
     </globalProperty>
     <globalProperty>
+      <property>idgen.prefixLocationAttributeType</property>
+      <value>id_prefix</value>
+    </globalProperty>
+    <globalProperty>
       <property>bahmni.primaryIdentifierType</property>
       <value>b303f207-a094-457f-9833-f1cdc7b5d184</value>
     </globalProperty>
