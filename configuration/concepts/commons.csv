@@ -1,4 +1,6 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:500
+bf885a9d-9f98-4990-8c20-ac4ace816bfe,,CIEL:1065,True,Vrai,Yes,Oui,,,Misc,N/A,,,,,,,,,,,
+2120763c-6c49-4133-b532-1e931ab4858a,,CIEL:1066,False,Faux,No,Non,,,Misc,N/A,,,,,,,,,,,
 c2ba3844-98b7-4d3c-b98f-4adfc46658ee,,CIEL:1608,Capsule(s),Gelule(s),Capsule(s),Gelule(s),,,Misc,N/A,,,,,,,,,,,
 6fbbb779-94ca-4d83-8e02-8a559627b9fb,,CIEL:1513,Tablet(s),Comprime(s),Tablet(s),Comprime(s),,,Misc,N/A,,,,,,,,,,,
 22109614-7512-4739-b28a-783354d19aa1,,CIEL:162263,ml,ml,ml,ml,,,Misc,N/A,,,,,,,,,,,
@@ -100,7 +102,7 @@ a4d0c480-923b-49fe-b125-80453675fdea,,CIEL:1734,Year(s),An(s),Year(s),An(s),,,Mi
 88e55059-0ba4-11eb-a3aa-0242ac140008,,CIEL:1073;SNOMED:258705008,Week(s),Semaine(s),Week(s),Semaine(s),,,Misc,N/A,,,,,,,,,,,
 ae703c82-ed81-4b14-be4b-966949a1a696,,,Acute,Aigu,Acute,Aigu,,,Misc,N/A,,,,,,,,,,,Yes
 9de275a5-d92c-4868-8430-973ebcc9d593,,,Chronic,Chronique,Chronic,Chronique,,,Misc,N/A,,,,,,,,,,,
-b1efceca-31e0-4369-9dc1-73f483ba5b79,,,Treatment Duration Units,Unités de durée de traitement,Treatment Duration Units,Unités de durée de traitement,,,ConvSet,N/A,,,Jour(s);Semaine(s);Mois,,,,,,,
+b1efceca-31e0-4369-9dc1-73f483ba5b79,,,Treatment Duration Units,Unités de durée de traitement,Treatment Duration Units,Unités de durée de traitement,,,ConvSet,N/A,,,Jour(s);Semaine(s);Mois,,,,,,,,
 373b5749-82ff-a3d8-2e13-db76dd0499b3,,,Time Units,Unités de temps,Time Units,Unités de temps,,,Misc,Coded,,Heure(s);Jour(s);Semaine(s);Mois;An(s),,,,,,,,,
 c85623b5-7630-246e-a77e-65b146c713f1,,,Acute/Chronic,Aigu/Chronique,Acute/Chronic,Aigu/Chronique,,,Misc,Coded,,Aigu;Chronique,,,,,,,,,
 6d1b036f-829e-1c52-a74c-a8ec6d2f2d15,,,Physical examination notes,Notes de l'examen physique,Physical examination notes,Notes de l'examen physique,,,Misc,Text,,,,,,,,,,,
