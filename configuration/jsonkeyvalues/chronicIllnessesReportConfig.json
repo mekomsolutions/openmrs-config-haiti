@@ -1,5 +1,6 @@
 {
     "report.chronicIllnesses.active" : "true",
+    "report.chronicIllnesses.diagnosisQuestion.concept" : "a92807d9-bbe9-4874-aa6b-86c531fb6efd",
     "report.chronicIllnesses.conceptSet" : "f4af31c3-8248-494b-a345-a5f1d6bb9d29",
     "report.chronicIllnesses.referral.concept" : "bda6b247-f1fa-40d8-9164-79aebe99bfaf"
 }
