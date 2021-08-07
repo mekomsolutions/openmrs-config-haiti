@@ -1,2 +1,2 @@
-Uuid,Void/Retire,Identifier type,Name,Description,Prefix,Suffix,First identifier base,Min length,Max length,Base character set,_version:1,_order:1000
-0b16368a-b083-4308-bc21-05bb833d29a8,,b303f207-a094-457f-9833-f1cdc7b5d184,Numéro Dossier generator,Sequential generator for the Numéro Dossier Identifier,provider:idgen.locationBasedPrefixProvider,,3000000,7,,0123456789,,
+Uuid,Void/Retire,Identifier type,Name,Description,Prefix,Suffix,First identifier base,Min length,Max length,Base character set,_version:1
+0b16368a-b083-4308-bc21-05bb833d29a8,,b303f207-a094-457f-9833-f1cdc7b5d184,Numéro Dossier generator,Sequential generator for the Numéro Dossier Identifier,provider:idgen.locationBasedPrefixProvider,,3000000,7,,0123456789,
