@@ -14,7 +14,7 @@ e3892a91-1428-4816-8e83-834dcd738723,,,Previous Delivery Complications,Complicat
 402bba9c-ee24-45ac-947b-c574157e397d,,,Previous Delivery Complications Details,Détails des complications du dernier accouchement,Previous Delivery Complications Details,Détails des complications du dernier accouchement,,,Misc,Text,,,,,,,,,,,
 3b7d4768-8fc6-4a2d-9a83-05bd288b7108,,CIEL:1825,Number of living children,Nombre d'enfants vivants,Number of living children,Nombre d'enfants vivants,,,Misc,Numeric,,,,,,,,,,,
 6ed50023-d807-492f-a203-8ce87a942a52,,CIEL:1427,Date of last period,Date des dernières règles,Date of last period,Date des dernières règles,,,Misc,Date,,,,,,,,,,,
-f857c495-98d2-4097-9018-d6641a8304a5,,CIEL:1439,Fundal height,Hauteur utérine,Fundal height,Hauteur utérine,,,Misc,Numeric,,,,,cm,,,,,,
+f857c495-98d2-4097-9018-d6641a8304a5,,CIEL:1439,Fundal height,Hauteur utérine,Fundal height,Hauteur utérine,,,Misc,Numeric,,,,TRUE,cm,,,,,,
 e8468864-09e2-454b-b984-94a3c0ff7727,,,Fetus Details Set 4,Détails du foetus Set 4,Fetus Details,Détails du fœtus,,,ConvSet,N/A,,,Rythme cardiaque fœtal;Présentation,,,,,,,,
 ec5216e0-aa54-41e5-8f8a-440295734cb4,,CIEL:115491,Multiple pregnancy,Grossesse multiple,Multiple pregnancy,Grossesse multiple,,,Misc,Coded,,bf885a9d-9f98-4990-8c20-ac4ace816bfe;2120763c-6c49-4133-b532-1e931ab4858a,,,,,,,,,
 f7312165-7e96-4761-b4cf-d601a1a18f9c,,CIEL:1727,Signs and Symptoms,Symptômes,Signs and Symptoms,Symptômes,,,Misc,Coded,,Saignements vaginaux;Contractions utérines;Douleurs abdominales;Fièvre;Pieds gonflés;Troubles de la vision;Autre,,,,,,,,,
