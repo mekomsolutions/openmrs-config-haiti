@@ -4,4 +4,3 @@ ef83e09d-8885-4f12-be6b-06a80aa62972,,Product,An order for a product,org.openmrs
 16bb6bcf-2e81-4ba5-8583-ff4913201a72,,Drug Order,An order for a medication to be given to the patient,org.openmrs.DrugOrder,,Drug
 f8ae333e-9d1a-423e-a6a8-c3a0687ebcf2,,Lab Order,An order for laboratory tests,org.openmrs.Order,,LabTest;LabSet
 52a447d3-a64a-11e3-9aeb-50e549534c5e,,Test Order,Order type for test orders,org.openmrs.TestOrder,,Test
-7af35686-b7a6-45f0-818d-529ff37b0514,,Misc Order,Order type for test orders,org.openmrs.Order,,Misc
