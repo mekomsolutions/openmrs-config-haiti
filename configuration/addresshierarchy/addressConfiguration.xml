@@ -21,18 +21,6 @@
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
-      <field>ADDRESS_3</field>
-      <nameMapping>Section de commune</nameMapping>
-      <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>false</requiredInHierarchy>
-    </addressComponent>
-    <addressComponent>
-      <field>ADDRESS_1</field>
-      <nameMapping>Maison/Bâtiment</nameMapping>
-      <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>false</requiredInHierarchy>
-    </addressComponent>
-    <addressComponent>
       <field>ADDRESS_2</field>
       <nameMapping>Adresse</nameMapping>
       <sizeMapping>40</sizeMapping>
