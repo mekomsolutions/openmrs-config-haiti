@@ -1,5 +1,5 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1600
-23fca373-bb24-4cd1-8c10-93d6ee889b5b,,,Loss of Appetite,Perte d'appétit,Loss of Appetite,Perte d'appétit,,,Misc,N/A,,,,,,,,,,,
+e904d309-fb5c-452c-b9b1-8daf9a3eff15,,,Loss of Appetite,Perte d'appétit,Loss of Appetite,Perte d'appétit,,,Misc,N/A,,,,,,,,,,,
 4a9edbef-9ad9-40a3-a5d3-83a1674bc4df,,,General,Général,General,Général,,,Misc,Coded,,Perte d'appétit;Fièvre;Fatigue (R53);Sueurs nocturnes (R61.1);Autre,,,,,,,,,
 aa314e8c-aaf2-4ae6-80c8-a9b228852f8f,,,General Set,Ensemble général,General Set,Ensemble général,,,ConvSet,N/A,,,Général;Autres observations,,,,,,,,
 1a384669-a1fe-46bc-a7cb-4a1ed0556918,,,Discolorations,Décolorations,Discolorations,Décolorations,,,Misc,N/A,,,,,,,,,,,
