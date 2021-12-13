@@ -68,7 +68,7 @@
       "labels": {},
       "concepts": {
         "VITAL_SIGNS_1": "Signes Vitaux",
-        "PAIN_SCALE_2": "Échelle de Douleur",
+        "PAIN_SCALE_2": "Échelle de douleur",
         "TEMPERATURE_4": "Température",
         "PULSE_3": "Pouls",
         "RESPIRATORY_RATE_5": "Frequence respiratoire",
