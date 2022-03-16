@@ -9,9 +9,9 @@
           concat("",v.uuid) as activeVisitUuid,
           IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted
         from visit v
-        join person_name pn on v.patient_id = pn.person_id and pn.voided = 0
+        join person_name pn on v.patient_id = pn.person_id and pn.voided = 0 and pn.preferred = 1
         join patient_identifier pi on v.patient_id = pi.patient_id
-        join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id
+        join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id and pi.preferred = 1
         join global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid
         join person p on p.person_id = v.patient_id
         join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id
