@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+	<!-- Concepts -->
+	<include file="concepts.xml" relativeToChangelogFile="true"/>
+
+	<!-- OpenELIS concepts -->
+	<include file="labs.xml"  relativeToChangelogFile="true"/>
+
+	<!-- Encounter Types -->
+	<changeSet id="postbahmni-2021-03-12-19-51" author="rbuisson">
+		<comment>
+			Set encounter type 'ADMISSION' UUID
+		</comment>
+		<update tableName="encounter_type">
+			<column name="uuid" value="ccfbdaaf-c0fb-45ec-b4fc-958fef5c5965"/>
+			<where>name='ADMISSION'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-12-19-52" author="rbuisson">
+		<comment>
+			Set encounter type 'Consultation' UUID
+		</comment>
+		<update tableName="encounter_type">
+			<column name="uuid" value="dd528487-82a5-4082-9c72-ed246bd49591"/>
+			<where>name='Consultation'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-12-19-53" author="rbuisson">
+		<comment>
+			Set encounter type 'DISCHARGE' UUID
+		</comment>
+		<update tableName="encounter_type">
+			<column name="uuid" value="c521ee59-85dc-455d-ade6-969a27524594"/>
+			<where>name='DISCHARGE'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-12-19-54" author="rbuisson">
+		<comment>
+			Set encounter type 'INVESTIGATION' UUID
+		</comment>
+		<update tableName="encounter_type">
+			<column name="uuid" value="a4f57f5c-f1d5-4934-8c0d-d32083421bc8"/>
+			<where>name='INVESTIGATION'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-12-19-55" author="rbuisson">
+		<comment>
+			Set encounter type 'LAB_RESULT' UUID
+		</comment>
+		<update tableName="encounter_type">
+			<column name="uuid" value="b3730730-c47a-46ca-ad66-9871ffb31722"/>
+			<where>name='LAB_RESULT'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-12-19-56" author="rbuisson">
+		<comment>
+			Set encounter type 'Patient Document' UUID
+		</comment>
+		<update tableName="encounter_type">
+			<column name="uuid" value="89b87ad8-b9df-495c-9279-331515093d89"/>
+			<where>name='Patient Document'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-12-19-57" author="rbuisson">
+		<comment>
+			Set encounter type 'RADIOLOGY' UUID
+		</comment>
+		<update tableName="encounter_type">
+			<column name="uuid" value="84fd2097-63cb-47d4-8392-d553fb6ef571"/>
+			<where>name='RADIOLOGY'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-12-19-58" author="rbuisson">
+		<comment>
+			Set encounter type 'REG' UUID
+		</comment>
+		<update tableName="encounter_type">
+			<column name="uuid" value="a7feb1a0-4bd8-48d1-acfd-ce282d139f06"/>
+			<where>name='REG'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-12-19-59" author="rbuisson">
+		<comment>
+			Set encounter type 'TRANSFER' UUID
+		</comment>
+		<update tableName="encounter_type">
+			<column name="uuid" value="c74fcf9d-9597-44a9-a311-c41fa98516cd"/>
+			<where>name='TRANSFER'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-12-20-00" author="rbuisson">
+		<comment>
+			Set encounter type 'VALIDATION NOTES' UUID
+		</comment>
+		<update tableName="encounter_type">
+			<column name="uuid" value="579141eb-fe07-4c3e-8a54-f10024aaa4e8"/>
+			<where>name='VALIDATION NOTES'</where>
+		</update>
+	</changeSet>
+
+	<!-- Visit Types -->
+	<changeSet id="postbahmni-2021-03-12-20-01" author="rbuisson">
+		<comment>
+			Set visit type 'LAB VISIT' UUID
+		</comment>
+		<update tableName="visit_type">
+			<column name="uuid" value="929fb1a1-d801-4b56-9d15-503685a6c49d"/>
+			<where>name='LAB VISIT'</where>
+		</update>
+	</changeSet>
+
+	<!-- Patient Identifier Types -->
+	<changeSet id="postbahmni-2021-03-12-20-02" author="rbuisson">
+		<comment>
+			Set encounter type 'Patient Identifier' UUID
+		</comment>
+		<update tableName="patient_identifier_type">
+			<column name="uuid" value="cb013d56-d1e0-4a1f-8d6e-652b35ec191d"/>
+			<where>name='Patient Identifier'</where>
+		</update>
+	</changeSet>
+
+	<!-- Order Types -->
+	<changeSet id="postbahmni-2021-03-25-19-01" author="reagan-meant">
+		<comment>
+			Set order type 'Radiology Order' UUID
+		</comment>
+		<update tableName="order_type">
+			<column name="uuid" value="5338a5b1-2cbc-4081-9a9b-9e479e2acaad"/>
+			<where>name='Radiology Order'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-25-20-01" author="reagan-meant">
+		<comment>
+			Set order type 'Drug Order' UUID
+		</comment>
+		<update tableName="order_type">
+			<column name="uuid" value="16bb6bcf-2e81-4ba5-8583-ff4913201a72"/>
+			<where>name='Drug Order'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-25-21-01" author="reagan-meant">
+		<comment>
+			Set order type 'Lab Order' UUID
+		</comment>
+		<update tableName="order_type">
+			<column name="uuid" value="f8ae333e-9d1a-423e-a6a8-c3a0687ebcf2"/>
+			<where>name='Lab Order'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-25-21-17" author="reagan-meant">
+		<comment>
+			Set order type 'Test Order' UUID
+		</comment>
+		<update tableName="order_type">
+			<column name="uuid" value="52a447d3-a64a-11e3-9aeb-50e549534c5e"/>
+			<where>name='Test Order'</where>
+		</update>
+	</changeSet>
+</databaseChangeLog>

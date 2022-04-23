@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+	<!-- Concepts -->
+	<changeSet id="postbahmni-2021-03-12-19-43" author="rbuisson">
+		<comment>
+			Set concept 'Yes' UUID
+		</comment>
+		<update tableName="concept">
+			<column name="uuid" value="bf885a9d-9f98-4990-8c20-ac4ace816bfe"/>
+			<where>concept_id='1'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-12-19-50" author="rbuisson">
+		<comment>
+			Set concept 'No' UUID
+		</comment>
+		<update tableName="concept">
+			<column name="uuid" value="2120763c-6c49-4133-b532-1e931ab4858a"/>
+			<where>concept_id='2'</where>
+		</update>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-22-41" author="reagan-meant">
+		<comment>
+			Set concept 'Capsule(s)' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'c2ba3844-98b7-4d3c-b98f-4adfc46658ee' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Capsule(s)');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-22-44" author="reagan-meant">
+		<comment>
+			Set concept 'Capsule' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '164cd72a-b50d-41f5-b534-7baff3e434b9' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Capsule');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-22-45" author="reagan-meant">
+		<comment>
+			Set concept 'mg' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'd34c85d0-f1c5-44d1-bfe3-d19d5ec875b1' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='mg');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-22-47" author="reagan-meant">
+		<comment>
+			Set concept 'Tablespoon' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '6fa802c9-5ad8-4e0b-9b8b-d80e4d91b21d' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Tablespoon');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-22-50" author="reagan-meant">
+		<comment>
+			Set concept 'Teaspoon' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '89a91a0c-35d4-45b9-a87d-dac77df05c81' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Teaspoon');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-22-52" author="reagan-meant">
+		<comment>
+			Set concept 'Unit(s)' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'ffe07e7c-0452-4e59-b326-9d2853b56417' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Unit(s)');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-22-53" author="reagan-meant">
+		<comment>
+			Set concept 'Dosing Units' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '9d5b708e-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Dosing Units');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-22-54" author="reagan-meant">
+		<comment>
+			Set concept 'Drug Routes' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '9d697972-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Drug Routes');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-22-56" author="reagan-meant">
+		<comment>
+			Set concept 'Before meals' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'c3cfe994-bdb2-4024-9b54-3f7cebd465ca' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Before meals');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-22-59" author="reagan-meant">
+		<comment>
+			Set concept 'After meals' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '1351b170-9d2c-4b43-a10d-f3755a2aa936' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='After meals');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-23-23-02" author="reagan-meant">
+		<comment>
+			Set concept 'In the morning' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '730cf5ba-0cab-464d-bd5f-16dc5511d4c5' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='In the morning');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-02" author="reagan-meant">
+		<comment>
+			Set concept 'At bedtime' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'a5890d50-681b-4ff6-a36b-f0cb6ee28c04' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='At bedtime');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-09-02" author="reagan-meant">
+		<comment>
+			Set concept 'Dosing Instructions' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '29894afc-0c2e-4a0e-9039-0c996017c75e' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Dosing Instructions');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-04" author="reagan-meant">
+		<comment>
+			Set concept 'Oral' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'c5dee13f-524c-4dcc-9ad5-478a77596096' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Oral');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-08" author="reagan-meant">
+		<comment>
+			Set concept 'Topical' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '1c0e27f8-63af-4bba-9629-fae799948a7c' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Topical');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-10" author="reagan-meant">
+		<comment>
+			Set concept 'Inhalation' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '09ddefb3-5f66-48f3-92c6-44f8391b9b97' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Inhalation');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-11" author="reagan-meant">
+		<comment>
+			Set concept 'Intramuscular' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '2bd7f0b3-57d1-421c-aac6-762ddd77cf4b' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Intramuscular');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-12" author="reagan-meant">
+		<comment>
+			Set concept 'Intravenous' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '76bb4178-99cd-4999-a8c7-bf982ba4b7b0' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Intravenous');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-13" author="reagan-meant">
+		<comment>
+			Set concept 'IU' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '8574ffb1-222d-4a11-97c9-7e401c59e2b1' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='IU');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-14" author="reagan-meant">
+		<comment>
+			Set concept 'Empty stomach' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '9c60a0bf-e9eb-49bd-83cc-a07b46638a72' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Empty stomach');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-15" author="reagan-meant">
+		<comment>
+			Set concept 'In the evening' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '0e80c9bf-243a-4a04-98f4-b67dec9143e6' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='In the evening');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-16" author="reagan-meant">
+		<comment>
+			Set concept 'As directed' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '6e5fc007-7d46-413a-a9d0-c193b1246bdf' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='As directed');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-17" author="reagan-meant">
+		<comment>
+			Set concept 'Month(s)' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '88e5cc3c-0ba4-11eb-a3aa-0242ac140008' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Month(s)');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-18" author="reagan-meant">
+		<comment>
+			Set concept 'Hour(s)' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '88e474ea-0ba4-11eb-a3aa-0242ac140008' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Hour(s)');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-19" author="reagan-meant">
+		<comment>
+			Set concept 'Week(s)' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '88e55059-0ba4-11eb-a3aa-0242ac140008' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Week(s)');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-20" author="reagan-meant">
+		<comment>
+			Set concept 'All Observation Templates' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '2da93612-9727-4a29-ae6d-518fc62265ae' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='All Observation Templates');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-21" author="reagan-meant">
+		<comment>
+			Set concept 'Tablet' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'fdbe907b-6abc-41dc-9599-2d84105e4063' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Tablet');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-22" author="reagan-meant">
+		<comment>
+			Set concept 'Tablet(s)' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '6fbbb779-94ca-4d83-8e02-8a559627b9fb' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Tablet(s)');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-23" author="reagan-meant">
+		<comment>
+			Set concept 'ml' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '22109614-7512-4739-b28a-783354d19aa1' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='ml');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-24" author="reagan-meant">
+		<comment>
+			Set concept 'Document' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '81f330b5-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Document');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-25" author="reagan-meant">
+		<comment>
+			Set concept 'Lab Samples' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'e7c76ec4-945f-4757-a53c-08e42de04813' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Lab Samples');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-26" author="reagan-meant">
+		<comment>
+			Set concept 'All Orderables' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '6ca268aa-0381-4e83-8c84-38aaf2fcd102' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='All Orderables');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-27" author="reagan-meant">
+		<comment>
+			Set concept 'Lab Departments' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '5a0ae1f0-dac8-4df9-b5b7-59d16cc6ad03' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Lab Departments');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-28" author="reagan-meant">
+		<comment>
+			Set concept 'Undo Discharge' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'b1d4bb65-1637-496c-8e11-05da30a2a1cb' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Undo Discharge');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-29" author="reagan-meant">
+		<comment>
+			Set concept 'Admit Patient' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '59e51158-44ec-45d1-8d8a-b5c31f2b3212' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Admit Patient');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-30" author="reagan-meant">
+		<comment>
+			Set concept 'Discharge Patient' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '89cd4d9f-579a-4ee5-9353-f62704688ea0' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Discharge Patient');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-31" author="reagan-meant">
+		<comment>
+			Set concept 'Transfer Patient' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'efaf4399-601c-4479-aba2-21591a6eccae' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Transfer Patient');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-32" author="reagan-meant">
+		<comment>
+			Set concept 'Disposition' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'd664e628-2957-4b02-8a25-28a8cb10fee5' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Disposition');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-33" author="reagan-meant">
+		<comment>
+			Set concept 'Disposition Note' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'a6ea10ed-ede7-43e2-83e8-c6be5ca26d76' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Disposition Note');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-34" author="reagan-meant">
+		<comment>
+			Set concept 'Disposition Concept Set' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'caa44025-9e30-4feb-8d2a-c58c91f36bfc' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Disposition Set');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-36" author="reagan-meant">
+		<comment>
+			Set concept 'Presumed' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '5ea81b14-c8cb-41c8-89fc-4986f527709c' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Presumed');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-37" author="reagan-meant">
+		<comment>
+			Set concept 'Confirmed' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '24fa8038-20d3-49c1-aeb0-e8e09cb0e860' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Confirmed');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-38" author="reagan-meant">
+		<comment>
+			Set concept 'Diagnosis Certainty' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'a606df80-6615-4523-8b93-fa47ee311024' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Diagnosis Certainty');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-39" author="reagan-meant">
+		<comment>
+			Set concept 'Secondary' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '999106f5-8f78-4f63-878c-ea1b4c0c0f4c' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Secondary');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-40" author="reagan-meant">
+		<comment>
+			Set concept 'Primary' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '1267710f-da31-48cf-94e4-38aa3de3b8b0' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Primary');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-41" author="reagan-meant">
+		<comment>
+			Set concept 'Visit Diagnoses' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'db7a4a72-2342-4251-b72a-7b2b4fcd3bd6' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Visit Diagnoses');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-42" author="reagan-meant">
+		<comment>
+			Set concept 'Non-coded Diagnosis' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '96b0bc20-37f1-42ba-871c-3d75d0a648f8' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Non-coded Diagnosis');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-43" author="reagan-meant">
+		<comment>
+			Set concept 'Coded Diagnosis' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'a92807d9-bbe9-4874-aa6b-86c531fb6efd' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Coded Diagnosis');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-44" author="reagan-meant">
+		<comment>
+			Set concept 'Diagnosis order' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '59d12a8e-62a8-4a4e-8f5e-8d7dc45b6a70' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Diagnosis order');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-45" author="reagan-meant">
+		<comment>
+			Set concept 'Bahmni Initial Diagnosis' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '4e15240c-8014-477f-8cff-dac1f50c9fb4' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Bahmni Initial Diagnosis');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-46" author="reagan-meant">
+		<comment>
+			Set concept 'Bahmni Diagnosis Revised' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '69b5cf9f-9f6c-4808-a0cd-144d4d9e9be9' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Bahmni Diagnosis Revised');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-47" author="reagan-meant">
+		<comment>
+			Set concept 'Bahmni Diagnosis Status' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'e8f1db5d-4852-413c-b7e1-b8c461543a9f' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Bahmni Diagnosis Status');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-03-24-00-48" author="reagan-meant">
+		<comment>
+			Set concept 'Consultation Note' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'ba9c0c84-3f0b-47cf-8cee-d03e84775688' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Consultation Note');</sql>
+	</changeSet>
+		<changeSet id="postbahmni-2021-05-17-12-00" author="nuhuhmutebi">
+		<comment>
+			Set concept 'Adt Notes' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'c238289b-8533-485e-8d9e-665f6f01f210' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Adt Notes');</sql>
+	</changeSet>
+</databaseChangeLog>
