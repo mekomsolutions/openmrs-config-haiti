@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+	<!-- OpenELIS specific concepts -->
+	
+	<changeSet id="postbahmni-2021-04-08-22-41" author="reagan-meant">
+		<comment>
+			Set concept 'Lab Manager Notes' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'b00f2eca-8936-43d4-a744-5e79b628c22d' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Lab Manager Notes');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-04-08-22-44" author="reagan-meant">
+		<comment>
+			Set concept 'Accession Uuid' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'ee70fb08-3617-4a56-bc40-60cdc4c6480b' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Accession Uuid');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-04-08-22-45" author="reagan-meant">
+		<comment>
+			Set concept 'LAB_MINNORMAL' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '5eda049a-2f08-4115-b615-dedaf9568a77' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_MINNORMAL');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-04-08-22-47" author="reagan-meant">
+		<comment>
+			Set concept 'LAB_MAXNORMAL' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '9626bcf2-7ff8-45ad-b97d-a87676bed894' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_MAXNORMAL');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-04-08-22-50" author="reagan-meant">
+		<comment>
+			Set concept 'LABRESULTS_CONCEPT' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '412bdd72-47b2-4b1e-8941-1ccff18f0dc0' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LABRESULTS_CONCEPT');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-04-08-22-52" author="reagan-meant">
+		<comment>
+			Set concept 'LAB_RESULT' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '9b2205e2-ff27-4a3b-a1c8-aed2c4923e90' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_RESULT');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-04-08-22-53" author="reagan-meant">
+		<comment>
+			Set concept 'LAB_NOTES' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '33546207-45c6-4b4f-b954-91cb626337dc' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_NOTES');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-04-08-22-54" author="reagan-meant">
+		<comment>
+			Set concept 'LAB_ABNORMAL' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '3b352fab-8bfe-4ef8-b6cb-2f09deb91262' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_ABNORMAL');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-04-08-22-56" author="reagan-meant">
+		<comment>
+			Set concept 'REFERRED_OUT' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'e607e9fc-5afe-40bd-85d7-1cd233f0bee1' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='REFERRED_OUT');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-04-08-22-59" author="reagan-meant">
+		<comment>
+			Set concept 'LAB_REPORT' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = 'c22cba3b-9f0b-48e7-ad5b-2cc4631a8d0e' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_REPORT');</sql>
+	</changeSet>
+	<changeSet id="postbahmni-2021-04-19-22-59" author="reagan-meant">
+		<comment>
+			Set concept 'All_Tests_and_Panels' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '14fb1cd8-c9c7-4bdb-a7e8-8482a170a86c' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='All_Tests_and_Panels');</sql>
+	</changeSet>
+	</databaseChangeLog>
