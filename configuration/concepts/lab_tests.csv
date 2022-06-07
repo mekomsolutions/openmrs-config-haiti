@@ -1,9 +1,4 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:800
-718b4589-2a11-4355-b8dc-aa668a93e098,,CIEL:664,Negative,Negatif,Negative,Negatif,,,Misc,N/A,,,,,,,,,,,
-7acfafa4-f19b-485e-97a7-c9e002dbe37a,,CIEL:703,Positive,Positif,Positive,Positif,,,Misc,N/A,,,,,,,,,,,
-11f699e3-6983-4b27-99cd-07d4bd323a2f,,CIEL:163748,Present,Present,Present,Present,,,Misc,N/A,,,,,,,,,,,
-04c72d1e-b191-42b6-ba7e-9004dc8db4a6,,CIEL:163747,Absent,Absent,Absent,Absent,,,Misc,N/A,,,,,,,,,,,
-484bfc3e-2109-47ad-beae-4689d5925f26,,CIEL:1138,Indeterminate,Indetermine,Indeterminate,Indetermine,,,Misc,N/A,,,,,,,,,,,
 91d1dba5-bd31-4f0f-857a-1fae38165a6d,,,Blood Sugar,Glycemie,Blood Sugar,Glycemie,,,LabTest,Numeric,,,,TRUE,mg/dL,70,180,,,,
 18121013-fca2-4bf5-a74c-d4bb7ae4bf4d,,CIEL:690,A+,A+,A+,A+,,,Misc,N/A,,,,,,,,,,,
 58663b05-3dc6-4bff-a6e1-62b4564f8c81,,CIEL:692,A-,A-,A-,A-,,,Misc,N/A,,,,,,,,,,,

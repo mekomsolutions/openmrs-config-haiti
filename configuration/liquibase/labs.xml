@@ -4,7 +4,7 @@
                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
 
 	<!-- OpenELIS specific concepts -->
-	
+
 	<changeSet id="postbahmni-2021-04-08-22-41" author="reagan-meant">
 		<comment>
 			Set concept 'Lab Manager Notes' UUID
@@ -71,4 +71,282 @@
 		</comment>
 		<sql>UPDATE concept SET uuid = '14fb1cd8-c9c7-4bdb-a7e8-8482a170a86c' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='All_Tests_and_Panels');</sql>
 	</changeSet>
-	</databaseChangeLog>
+
+	</changeSet>
+	<changeSet id="hsc-2021-06-19-20-59" author="reagan-meant">
+		<comment>
+			Set concept 'Gravindex' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '571e8f4f-4d98-40eb-bd55-c88b8a8ab76d' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Gravindex' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+
+	</changeSet>
+
+	<changeSet id='hsc-2022-03-24-00-0' author='reagan-meant'>
+		<comment> Set concept 'A+' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '18121013-fca2-4bf5-a74c-d4bb7ae4bf4d' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='A+' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-1' author='reagan-meant'>
+		<comment> Set concept 'A-' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '58663b05-3dc6-4bff-a6e1-62b4564f8c81' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='A-' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-2' author='reagan-meant'>
+		<comment> Set concept 'B+' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'f4fd6b2c-7cea-489d-b623-53bb3842d137' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='B+' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-3' author='reagan-meant'>
+		<comment> Set concept 'B-' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'b295f926-3240-4da1-9422-e3ef4c8c3886' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='B-' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-4' author='reagan-meant'>
+		<comment> Set concept 'O+' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'e1dc0b09-e7c4-4f0b-9463-58aed51fa06e' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='O+' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-5' author='reagan-meant'>
+		<comment> Set concept 'O-' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '4e600262-f421-447d-9e6d-ec78cdf4e041' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='O-' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-6' author='reagan-meant'>
+		<comment> Set concept 'AB+' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '28380b0e-cbd3-45f7-9421-21113993d7d7' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='AB+' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-7' author='reagan-meant'>
+		<comment> Set concept 'AB-' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '064acd44-7bf4-4f19-8133-139234188b03' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='AB-' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-8' author='reagan-meant'>
+		<comment> Set concept 'Blood Group (ABO; Rh)' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '00ce9624-11e3-4015-b695-d7ff7cb3930e' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Blood Group (ABO; Rh)' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-9' author='reagan-meant'>
+		<comment> Set concept 'Hematocrit' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '3fb9fc5a-3a35-4298-9a92-c24853adf4f9' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Hematocrit' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-10' author='reagan-meant'>
+		<comment> Set concept 'White Blood Cell Count' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '0758ec9f-efd5-4421-a6ee-41aa397f05a9' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='White Blood Cell Count' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-11' author='reagan-meant'>
+		<comment> Set concept 'Red Blood Cell Count' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '3cf0a904-b1ad-4c35-b2d3-20634e2c4820' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Red Blood Cell Count' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-12' author='reagan-meant'>
+		<comment> Set concept 'Hemoglobin' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'becd4484-4379-4069-8448-d7211f3654c4' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Hemoglobin' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-13' author='reagan-meant'>
+		<comment> Set concept 'Neutrophils' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '26ffad22-33ed-433f-8430-99fcafcb4baa' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Neutrophils' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-14' author='reagan-meant'>
+		<comment> Set concept 'Eosinophils' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'f8bd08fd-0243-4ca6-8257-c0ecbddde480' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Eosinophils' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-15' author='reagan-meant'>
+		<comment> Set concept 'Basophils' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '1a951978-61d9-4ef6-9481-d2456f3b4b0c' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Basophils' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-16' author='reagan-meant'>
+		<comment> Set concept 'Lymphocytes' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '86cea01d-37ef-4275-9f28-05997a759c02' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Lymphocytes' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-17' author='reagan-meant'>
+		<comment> Set concept 'Monocytes' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '4fb44f2b-cb12-488d-b8de-3f4a7917e45f' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Monocytes' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-18' author='reagan-meant'>
+		<comment> Set concept 'Reticulocytes' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '3b878b87-844e-47de-97b5-50d9fbb3f4d3' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Reticulocytes' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-19' author='reagan-meant'>
+		<comment> Set concept 'Mean Corpuscular Volume' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '5c64ff49-2821-476c-af50-8dab7275eeed' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Mean Corpuscular Volume' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-20' author='reagan-meant'>
+		<comment> Set concept 'Mean Corpuscular Hemoglobin Concentration' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '137e9ba3-85ad-4fe3-bcbc-f05bc4613d34' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Mean Corpuscular Hemoglobin Concentration' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-21' author='reagan-meant'>
+		<comment> Set concept 'Mean Corpuscular Hemoglobin' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'ec4c96b4-1da4-41b6-978b-4d71d2821153' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Mean Corpuscular Hemoglobin' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-22' author='reagan-meant'>
+		<comment> Set concept 'Platelets' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '28241008-8e07-47ec-8692-3c276e6fae4a' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Platelets' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-23' author='reagan-meant'>
+		<comment> Set concept 'Complete Blood Count' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'e1a77dc7-c7d6-41d2-9c4e-93acc1093bcf' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Complete Blood Count' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+
+	<changeSet id='hsc-2022-03-24-00-24' author='reagan-meant'>
+		<comment> Set concept 'Malaria test' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '508c9da4-56f9-4129-9a0e-766fb8e74f3e' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Malaria test' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-25' author='reagan-meant'>
+		<comment> Set concept 'Stool Analysis' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'c960002a-a4fd-425d-b24a-c255862e3e03' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Stool Analysis' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-03-24-00-26' author='reagan-meant'>
+		<comment> Set concept 'Sickling test' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '382c9fa6-81d8-48c7-8b45-7866f5473030' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Sickling test' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+
+	<changeSet id='hsc-2022-07-02-00-0' author='reagan-meant'>
+		<comment> Set concept 'Straw Yellow' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '6c456eb8-65bf-4d1a-8481-f505d0f19c0a' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Straw Yellow' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-1' author='reagan-meant'>
+		<comment> Set concept 'Citrus Yellow' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'd68eb077-925d-4061-aa0a-d43e758171b3' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Citrus Yellow' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-2' author='reagan-meant'>
+		<comment> Set concept 'Amber' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '98ef29b8-f741-4ef6-8c2e-d31413287072' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Amber' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-3' author='reagan-meant'>
+		<comment> Set concept 'Brownish' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'd719d77b-1542-4c3d-871a-79c373db105b' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Brownish' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-4' author='reagan-meant'>
+		<comment> Set concept 'Urine Colour' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '7f2b179f-aaab-43cf-8f37-7eb9563db85d' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Urine Colour' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-5' author='reagan-meant'>
+		<comment> Set concept 'Clear' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '96aa5965-201b-4968-8048-4d7e831bdfe2' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Clear' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-6' author='reagan-meant'>
+		<comment> Set concept 'Slightly Cloudy' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'aaf90530-149c-45b6-9608-23d7a2ddf03b' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Slightly Cloudy' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-7' author='reagan-meant'>
+		<comment> Set concept 'Turbid' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '28634aa9-35d5-4f2a-af92-121cc04a723f' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Turbid' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-8' author='reagan-meant'>
+		<comment> Set concept 'Urine Appearance' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '862c9e83-c66a-4e38-a5fd-57f7ef757d7e' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Urine Appearance' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-9' author='reagan-meant'>
+		<comment> Set concept 'Density' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '6cc30635-0487-45f5-9214-d9c49fcd0372' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Density' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-10' author='reagan-meant'>
+		<comment> Set concept 'pH' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '16d344a9-c47c-4aa6-bb6a-9bfcce69f420' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='pH' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-11' author='reagan-meant'>
+		<comment> Set concept 'Blood in urine' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'd04d3d38-a009-4e7f-a8a0-49e4be99cfbd' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Blood in urine' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-12' author='reagan-meant'>
+		<comment> Set concept 'Nitrites' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '1eda2b4c-16e1-4276-9439-116ea7d5ce58' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Nitrites' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-13' author='reagan-meant'>
+		<comment> Set concept 'Acetone Ketone' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '38c84115-c528-4472-8bdd-fec228468877' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Acetone Ketone' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-14' author='reagan-meant'>
+		<comment> Set concept 'Bilirubin' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '61c0f1d9-6440-4a22-9c55-b10603245254' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Bilirubin' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-15' author='reagan-meant'>
+		<comment> Set concept 'Urobilinogen' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'bb655797-22dc-4d21-9806-88fbc62cd601' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Urobilinogen' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-16' author='reagan-meant'>
+		<comment> Set concept 'Urine Protein' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'a360c76e-b365-4854-97f9-1703ec29cb48' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Urine Protein' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-17' author='reagan-meant'>
+		<comment> Set concept 'Urine Albumin' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '946359c0-9855-4d4a-ac42-a22ff3172eed' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Urine Albumin' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-18' author='reagan-meant'>
+		<comment> Set concept 'Macrophages' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'dcceb533-a900-4f52-ae97-be1ad9b87bc9' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Macrophages' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-19' author='reagan-meant'>
+		<comment> Set concept 'Kidney Cells' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '20254f8b-7035-44b1-ba0b-6001f0559cf6' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Kidney Cells' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-20' author='reagan-meant'>
+		<comment> Set concept 'Leukocyte Cylinders' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '555381cf-08f1-4924-9e62-2baf9b9e0d9c' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Leukocyte Cylinders' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-21' author='reagan-meant'>
+		<comment> Set concept 'Granular Cylinders' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'bcb400cc-8560-449e-b5f0-39a1074f9acf' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Granular Cylinders' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-22' author='reagan-meant'>
+		<comment> Set concept 'Hyaline Cylinders' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'e653561e-861c-4406-a576-270518b4d2e4' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Hyaline Cylinders' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-23' author='reagan-meant'>
+		<comment> Set concept 'Erythrocyte Cylinders' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '529b1fbb-4575-41b0-b91d-93220cebeca8' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Erythrocyte Cylinders' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-00-24' author='reagan-meant'>
+		<comment> Set concept 'Crystals' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '759af646-8555-41ad-aa62-0a932743bfe1' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Crystals' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-01-25' author='reagan-meant'>
+		<comment> Set concept 'Urinalysis' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'c108ee98-5abc-43f3-9653-fc920d79e133' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Urinalysis' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+
+	<changeSet id='hsc-2022-07-02-20-25' author='reagan-meant'>
+		<comment> Set concept 'Erythrocyte Sedimentation Rate (ESR)' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '7036964e-e177-465e-8af8-b1b761f290c5' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Erythrocyte Sedimentation Rate (ESR)' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-02-30-25' author='reagan-meant'>
+		<comment> Set concept 'Widal' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'a60b7de5-d126-4b28-8efc-2a81de5165f0' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Widal' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+
+	<changeSet id='hsc-2022-07-03-00-0' author='reagan-meant'>
+		<comment> Set concept 'Blood' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '2cbfd68c-b45a-4c25-b9a3-650169d87940' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Blood' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-03-00-1' author='reagan-meant'>
+		<comment> Set concept 'Urine' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '09db95e4-185c-4a22-9464-10c77dff27be' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Urine' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-03-00-2' author='reagan-meant'>
+		<comment> Set concept 'Sputum' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '81c589ed-4b03-4bfd-af59-ac160596aba4' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Sputum' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-03-00-3' author='reagan-meant'>
+		<comment> Set concept 'Stool' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '7d14260b-2000-4863-9d8b-71dcb3a32f36' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Stool' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-03-00-4' author='reagan-meant'>
+		<comment> Set concept 'Lab Samples' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'e7c76ec4-945f-4757-a53c-08e42de04813' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Lab Samples' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-03-00-5' author='reagan-meant'>
+		<comment> Set concept 'All_Test_And_Panels' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '14fb1cd8-c9c7-4bdb-a7e8-8482a170a86c' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='All_Test_And_Panels' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-03-00-6' author='reagan-meant'>
+		<comment> Set concept 'Blood Department' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'ab153abe-3225-49fc-a1f8-ec18d449870d' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Blood Department' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-03-00-7' author='reagan-meant'>
+		<comment> Set concept 'Urine Department' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '4a32fd44-99ef-4a77-843d-2dbed737ba77' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Urine Department' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-03-00-8' author='reagan-meant'>
+		<comment> Set concept 'Stool Department' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'c7dc14b7-ee8f-4a4f-8a5f-863baf787a24' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Stool Department' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-03-00-9' author='reagan-meant'>
+		<comment> Set concept 'Sputum Department' UUID  </comment>
+		<sql>UPDATE concept SET uuid = 'c7963a93-1ee0-4fe7-b06d-c51403f5ede3' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Sputum Department' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+	<changeSet id='hsc-2022-07-03-00-10' author='reagan-meant'>
+		<comment> Set concept 'Lab Departments' UUID  </comment>
+		<sql>UPDATE concept SET uuid = '5a0ae1f0-dac8-4df9-b5b7-59d16cc6ad03' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Lab Departments' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
+	</changeSet>
+</databaseChangeLog>
