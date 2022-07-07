@@ -298,6 +298,12 @@
 		</comment>
 		<sql>UPDATE concept SET uuid = 'db7a4a72-2342-4251-b72a-7b2b4fcd3bd6' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Visit Diagnoses');</sql>
 	</changeSet>
+	<changeSet id="postbahmni-2021-06-07-00-42" author="reagan-meant">
+		<comment>
+			Set concept 'Non-coded Condition' UUID
+		</comment>
+		<sql>UPDATE concept SET uuid = '478181b3-bad8-4755-9ff8-0f9ded58cf11' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Non-coded Condition');</sql>
+	</changeSet>
 	<changeSet id="postbahmni-2021-03-24-00-42" author="reagan-meant">
 		<comment>
 			Set concept 'Non-coded Diagnosis' UUID
