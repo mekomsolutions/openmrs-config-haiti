@@ -4,5 +4,9 @@
       <property>emr.concept.diagnosisSetOfSets</property>
       <value>dbc2ecdb-4e14-11e4-8a57-0800271c1b75</value>
     </globalProperty>
+    <globalProperty>
+      <property>conditionList.nonCodedUuid</property>
+      <value>478181b3-bad8-4755-9ff8-0f9ded58cf11</value>
+    </globalProperty>
   </globalProperties>
 </config>
