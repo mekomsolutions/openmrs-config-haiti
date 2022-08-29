@@ -29,6 +29,11 @@ cb54b5fd-10f0-4748-81c9-a3f19983d748,,,Tobacco History Set,Groupe d'histoire du 
 de0ff22d-8f97-4701-91d0-b293e5c61711,,,Tea,Thé,Tea,Thé,,,Misc,Coded,,bf885a9d-9f98-4990-8c20-ac4ace816bfe;2120763c-6c49-4133-b532-1e931ab4858a,,,,,,,,,
 de52f07a-d72a-44d0-8f4e-c7698ae4d798,,,Other Substance,Autres substances,Other Substance,Autres substances,,,Misc,Coded,,bf885a9d-9f98-4990-8c20-ac4ace816bfe;2120763c-6c49-4133-b532-1e931ab4858a,,,,,,,,,
 ebd6e645-10d1-47dd-9740-5f8aa609b414,,,Exercise,Sport,Exercise,Sport,,,Misc,Coded,,bf885a9d-9f98-4990-8c20-ac4ace816bfe;2120763c-6c49-4133-b532-1e931ab4858a,,,,,,,,,
+5c33fc6c-54fa-4d14-83a0-fc2815277e1d,,,Heterosexual,Hétérosexuel,Heterosexual,Hétérosexuel,,,Misc,Text,,,,,,,,,,,
+5c33fc6c-54fa-4d14-83a0-fc2815277e1d,,,Bisexual,Bisexuel,Bisexual,Bisexuel,,,Misc,Text,,,,,,,,,,,
+5c33fc6c-54fa-4d14-83a0-fc2815277e1d,,,Homosexual,Homosexuel,Homosexual,Homosexuel,,,Misc,Text,,,,,,,,,,,
+de52f07a-d72a-44d0-8f4e-c7698ae4d798,,,Sexual Orientation,Orientation sexuelle,Sexual Orientation,Orientation sexuelle,,,Misc,Coded,,Hétérosexuel;Bisexuel;Homosexuel,,,,,,,,,
+
 a12d125a-0394-4704-926a-97b8b6e10972,,,Life Style,Style de Vle,Life Style,Style de Vle,,,ConvSet,N/A,,,Groupe de consommation d'alcool; Groupe d'histoire du tabac; Marijuana; Autres substances;Sport;Autres observations,,,,,,,,
 f775a693-5293-4fcb-ac93-5fe8e6b1d2c7,,,Regular,Réguliére,Regular,Réguliére,,,Misc,N/A,,,,,,,,,,,
 7930caa3-8589-4103-8952-2a84b0daae2d,,,Diabetic,Hypoglucidique,Diabetic,Hypoglucidique,,,Misc,N/A,,,,,,,,,,,
