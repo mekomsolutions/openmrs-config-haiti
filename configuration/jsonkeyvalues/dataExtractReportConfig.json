@@ -1,0 +1,13 @@
+{
+    "report.conditions.active" : "true",
+    "report.encounters.active" : "true",
+    "report.concepts.active" : "true",
+    "report.obs.active" : "true",
+    "report.orders.active" : "true",
+    "report.programs.active" : "true",
+    "report.patients.active" : "true",
+    "report.appointments.active" : "true",
+    "report.visits.table.active" : "true",
+    "report.diagnoses.active" : "true"
+
+}
