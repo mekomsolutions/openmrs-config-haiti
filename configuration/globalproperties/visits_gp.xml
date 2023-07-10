@@ -6,7 +6,7 @@
     </globalProperty>
     <globalProperty>
       <property>emrapi.visitExpireHours</property>
-      <value>8</value>
+      <value>12</value>
     </globalProperty>
   </globalProperties>
 </config>
