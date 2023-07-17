@@ -2,7 +2,7 @@
   <globalProperties>
     <globalProperty>
       <property>visits.autoCloseVisitType</property>
-      <value>b9ba7b27-e64b-44d1-b4c5-2ced77f477d0</value>
+      <value>b9ba7b27-e64b-44d1-b4c5-2ced77f477d0,929fb1a1-d801-4b56-9d15-503685a6c49d,35ba9aff-901c-49dc-8630-a59385480d18,c4643116-8a61-499f-b62b-ff9375db0b7d,91c6bdce-3b92-42a2-9fa8-6ef6b169c4b2,a631dbbc-daa4-48aa-8fe4-3b5784360ab1,ad29e858-68a1-44eb-ae62-94157a8a52b0</value>
     </globalProperty>
     <globalProperty>
       <property>emrapi.visitExpireHours</property>
