@@ -6,8 +6,14 @@
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
 
-	<!-- Include other liquibase files located in the same folder as this file. -->
-	<includeAll path="./" />
+	<!-- Concepts -->
+	<include file="concepts.xml" relativeToChangelogFile="true"/>
+
+	<!-- OpenELIS concepts -->
+	<include file="labs.xml"  relativeToChangelogFile="true"/>
+
+	<!-- Distro specific change logs -->
+	<include file="distroSpecificChangeLogs.xml"  relativeToChangelogFile="true"/>
 
 	<!-- Encounter Types -->
 	<changeSet id="postbahmni-2021-03-12-19-51" author="rbuisson">
