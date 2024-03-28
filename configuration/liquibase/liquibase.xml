@@ -9,6 +9,9 @@
 	<!-- Include other liquibase files located in the same folder as this file. -->
 	<includeAll path="./" />
 
+	<!-- Distro specific change logs -->
+	<include file="distroSpecificChangeLogs.xml"  relativeToChangelogFile="true"/>
+
 	<!-- Encounter Types -->
 	<changeSet id="postbahmni-2021-03-12-19-51" author="rbuisson">
 		<comment>
