@@ -4,7 +4,7 @@
   <artifactId>openmrs-config-haiti</artifactId>
   <name>Haiti OpenMRS config</name>
   <description>OpenMRS configuration for the Bahmni distribution for Haiti</description>
-  <version>1.9.0-SNAPSHOT</version>
+  <version>1.9.0</version>
   <packaging>pom</packaging>
 
   <developers>
